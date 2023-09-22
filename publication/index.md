@@ -4,10 +4,17 @@ layout: base
 
 # Publications
 Note: * equal contribution
-+ (Submitted) Zhang R\*, **_<u>Du X</u>_**\*, Yan J, Zhang S. The Decoupling Concept Bottleneck Model.
-+ (CCF-A) **_<u>Du X</u>_**, Wang C, Zhong R, Yan J. HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection.[C]. Neural Information Processing Systems (**NeurIPS**), 2023.
-+ (CCF-A) **_<u>Du X</u>_**, Yan J, Zhang R, et al. Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction[J]. IEEE Transactions on Knowledge and Data Engineering(**TKDE**), 2022, 34(3): 1080 - 1095.
-+ (CCF-A) **_<u>Du X</u>_**, Yan J, Zha H. **Joint Link Prediction and Network Alignment via Cross-graph Embedding**[C]. International Joint Conference on Artificial Intelligence (**IJCAI**), 2019: 2251-2257.
++ (Submitted) Zhang R\*, **_<u>Du X</u>_**\*, Yan J, Zhang S. 
+The Decoupling Concept Bottleneck Model.
++ (CCF-A) **_<u>Du X</u>_**, Wang C, Zhong R, Yan J.
+HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection.
+Neural Information Processing Systems (**NeurIPS**), 2023.
++ (CCF-A) **_<u>Du X</u>_**, Yan J, Zhang R, et al.
+Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction.
+IEEE Transactions on Knowledge and Data Engineering(**TKDE**), 2020, 34(3): 1080 - 1095.
++ (CCF-A) **_<u>Du X</u>_**, Yan J, Zha H. 
+Joint Link Prediction and Network Alignment via Cross-graph Embedding.
+International Joint Conference on Artificial Intelligence (**IJCAI**), 2019: 2251-2257.
 
 # Patents
 + 一种基于线路生成和顺序选择的强化学习全局布线方法[P]. 上海市：CN116402012A,2023-07-07.
