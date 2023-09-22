@@ -4,16 +4,16 @@ layout: base
 
 # Publications
 Note: * equal contribution
-+ (Submitted) Zhang R\*, **_<u>Du X</u>_**\*, Yan J, Zhang S. 
++ (Submitted) Zhang R\*, **_<u>Du X</u>_**\*, Yan J, Zhang S.  
 The Decoupling Concept Bottleneck Model.
-+ (CCF-A) **_<u>Du X</u>_**, Wang C, Zhong R, Yan J.
-HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection.
++ (CCF-A) **_<u>Du X</u>_**, Wang C, Zhong R, Yan J.  
+HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection.  
 Neural Information Processing Systems (**NeurIPS**), 2023.
-+ (CCF-A) **_<u>Du X</u>_**, Yan J, Zhang R, et al.
-Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction.
++ (CCF-A) **_<u>Du X</u>_**, Yan J, Zhang R, et al.  
+Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction.  
 IEEE Transactions on Knowledge and Data Engineering(**TKDE**), 2020, 34(3): 1080 - 1095.
-+ (CCF-A) **_<u>Du X</u>_**, Yan J, Zha H. 
-Joint Link Prediction and Network Alignment via Cross-graph Embedding.
++ (CCF-A) **_<u>Du X</u>_**, Yan J, Zha H.  
+Joint Link Prediction and Network Alignment via Cross-graph Embedding.  
 International Joint Conference on Artificial Intelligence (**IJCAI**), 2019: 2251-2257.
 
 # Patents
