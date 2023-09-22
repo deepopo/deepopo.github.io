@@ -4,11 +4,14 @@ layout: base
 
 # Publications
 Note: * equal contribution
-+ (Submitted) Zhang R\*, **_<u>Du X</u>_**\*, Yan J, Zhang S. **Decoupling Concept Bottleneck Model**.
-+ (CCF-A) **_<u>Du X</u>_**, Yan J, Zhang R, et al. **Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction**[J]. _IEEE Transactions on Knowledge and Data Engineering_, 2020, 34(3): 1080 - 1095.
-+ (CCF-A) **_<u>Du X</u>_**, Yan J, Zha H. **Joint Link Prediction and Network Alignment via Cross-graph Embedding**[C]. _IJCAI_, 2019: 2251-2257.
++ (Submitted) Zhang R\*, **_<u>Du X</u>_**\*, Yan J, Zhang S. The Decoupling Concept Bottleneck Model.
++ (CCF-A) **_<u>Du X</u>_**, Wang C, Zhong R, Yan J. HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection.[C]. Neural Information Processing Systems (**NeurIPS**), 2023.
++ (CCF-A) **_<u>Du X</u>_**, Yan J, Zhang R, et al. Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction[J]. IEEE Transactions on Knowledge and Data Engineering(**TKDE**), 2022, 34(3): 1080 - 1095.
++ (CCF-A) **_<u>Du X</u>_**, Yan J, Zha H. **Joint Link Prediction and Network Alignment via Cross-graph Embedding**[C]. International Joint Conference on Artificial Intelligence (**IJCAI**), 2019: 2251-2257.
 
 # Patents
++ 一种基于线路生成和顺序选择的强化学习全局布线方法[P]. 上海市：CN116402012A,2023-07-07.
++ 基于改进奖励函数的芯片布局预训练及优化方法[P]. 上海市：CN116362123A,2023-06-30.
 + 基于时序关联网络的分析方法、装置及计算机可读存储介质[P]. 上海市：CN115086144A,2022-09-20.
 + 一种异常卡识别方法、装置、电子设备及存储介质[P]. 上海市：CN114881783A,2022-08-09.
 + 生成对象简称的方法和系统、存储介质以及程序产品[P]. 上海市：CN114282545A,2022-04-05.

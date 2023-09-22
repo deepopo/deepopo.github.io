@@ -3,7 +3,7 @@ layout: about
 ---
 
 # Short Bio
-I'm currently a Ph.D candidate in Department of Computer Science and Engineering, Shanghai Jiao Tong University. Before that, I received my B.S. degree (2017) and M.E. degree (2020) in East China Normal University, respectively. From 2020 to 2022, I was employed in the Institute of Financial Technology, China UnionPay. My current research interest includes **GNN (Graph Neural Network)** and **AI for EDA (Electronics Design Automation)**. Welcome to contact with me: <u>duxingbo@sjtu.edu.cn</u>.
+I'm currently a Ph.D candidate in Department of Computer Science and Engineering, Shanghai Jiao Tong University. Before that, I received my B.S. degree (2017) and M.E. degree (2020) in East China Normal University, respectively. From 2020 to 2022, I was employed in the Institute of Financial Technology, China UnionPay. My current research interest is **AI for CO (Combinotorial Optimization)**, which includes **Network Alignment**, **AI for EDA (Electronics Design Automation)**, and **Interpretability**. Welcome to contact with me: <u>duxingbo@sjtu.edu.cn</u>.
 
 # Education
 + **Shanghai Jiao Tong University**, School of Electronic Information and Electrical Engineering, Ph.D (2022.04 ~ Now)
@@ -34,7 +34,7 @@ I'm currently a Ph.D candidate in Department of Computer Science and Engineering
 + Outstanding Graduate in Shanghai (Twice in 2017/2020).
 
 # Other Academic Activities
-+ Serve as Reviewer: ICML, NeurIPS, CVPR, CIKM, PR, etc.
++ Serve as Reviewer: ICML, NeurIPS, ICLR, CVPR, CIKM, PR, etc.
 + Oral in IJCAI19.
 
 # Interests
