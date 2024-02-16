@@ -3,16 +3,13 @@ layout: about
 ---
 
 # Short Bio
-I'm currently a joint Ph.D candidate in School of Computer Science and Engineering, Shanghai Jiao Tong University (SJTU), and School of Computer Science and Engineering, the University of New South Wales (UNSW). Before that, I received my B.S. degree (2017) and M.E. degree (2020) in East China Normal University, respectively. From 2020 to 2022, I was employed in the Institute of Financial Technology, China UnionPay. My current research interest is **AI for CO (Combinotorial Optimization)**, which includes **Network Alignment**, **AI for EDA (Electronics Design Automation)**, and **Interpretability**. Welcome to contact with me: <u>duxingbo@sjtu.edu.cn</u>.
+I'm currently a Ph.D candidate in Department of Computer Science and Engineering, Shanghai Jiao Tong University. Before that, I received my B.S. degree (2017) and M.E. degree (2020) in East China Normal University, respectively. From 2020 to 2022, I was employed in the Institute of Financial Technology, China UnionPay. My current research interest is **AI for CO (Combinotorial Optimization)**, which includes **Network Alignment**, **AI for EDA (Electronics Design Automation)**, and **Interpretability**. Welcome to contact with me: <u>duxingbo@sjtu.edu.cn</u>.
 
 # Education
 + **Shanghai Jiao Tong University**, School of Electronic Information and Electrical Engineering, Ph.D (2022.04 ~ Now)
   + **Class of Wuwenjun Artificial Intelligence Honorary Doctor** 
   + **Major**: Computer Science and Engineering
   + **Superviser**: Prof. [<u>Junchi Yan</u>](https://thinklab.sjtu.edu.cn/)
-+ **the University of New South Wales**, School of Computer Science and Engineering, Ph.D (2024.02 ~ Now)
-  + **Major**: Computer Science and Engineering
-  + **Superviser**: Prof. [<u>Wenjie Zhang</u>](http://www.cse.unsw.edu.au/~zhangw/)
 + **East China Normal University**, School of Computer Science and Software Engineering, Master (2017.09 ~ 2020.07)
   + **Major**: Data Science and Engineering
   + **Superviser**: Prof. [<u>Hongyuan Zha</u>](https://sds.cuhk.edu.cn/teacher/65) (National 'thousand talents' program)
@@ -33,7 +30,6 @@ I'm currently a joint Ph.D candidate in School of Computer Science and Engineeri
 + [<u>Publication & Patents</u>](publication)
 
 # Award
-+ Scholarship of China Scholarship Council (CSC).
 + National Scholarship in 2019.
 + Outstanding Graduate in Shanghai (Twice in 2017/2020).
 
@@ -42,5 +38,5 @@ I'm currently a joint Ph.D candidate in School of Computer Science and Engineeri
 + Oral in IJCAI19.
 
 # Interests
-Apart from the research, I'm also interested in investment and music.
+Apart from the research, I'm also interested in stock investment and music.
 
