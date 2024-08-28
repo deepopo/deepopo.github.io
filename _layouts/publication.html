@@ -1,7 +1,30 @@
-<html>
-  <head><title>Site Under Maintenance</title></head>
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
   <body>
-    <h1>Site Under Maintenance</h1>
-    <p>Our site is currently under maintenance. Please check back later.</p>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="{{ site.baseurl }}/">
+          <h2 class="nav-title">{{ site.title }}</h2>
+        </a>
+        <ul>
+          <li><a href="{{ '/' | prepend: site.baseurl }}">About</a></li>
+		  <li><a href="{{ '/publication' | prepend: site.baseurl }}">Publications</a></li>
+          <li><a href="{{ '/portfolio' | prepend: site.baseurl }}/">Portfolio</a></li>
+        </ul>
+    </div>
+  </nav>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <span>
+        &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}. <a href="https://github.com/kssim/about-portfolio/">A.P</a> theme by kssim.
+      </span>
+    </footer>
   </body>
 </html>

@@ -19,6 +19,9 @@ I'm currently enrolled in a joint Ph.D degree program in School of Computer Scie
 + **East China Normal University**, Institute of Technology, Bachelor (2013.09 ~ 2017.07)
   + **Major**: Mathematics and Applied Mathematics
 
+# Teaching
++ **Tutor**, COMP9517 Computer Vision at UNSW (2024T2, 2024T3).
+
 # Career
 + **China UnionPay Co., Ltd**, Institute of Financial Technology, Researcher (2020/07 ~ 2022/03)
   + Member of key special project 'research and application demonstration of financial fraud and payment acceptance market violation detection and disposal technology', which is part of **the national key research and development program** 'social governance and smart society technology support'.
@@ -38,7 +41,7 @@ I'm currently enrolled in a joint Ph.D degree program in School of Computer Scie
 + Outstanding Graduate in Shanghai (Twice in 2017/2020).
 
 # Other Academic Activities
-+ Serve as Reviewer: ICML, NeurIPS, ICLR, CVPR, CIKM, PR, etc.
++ Serve as Reviewer: TPAMI, ICML, NeurIPS, ICLR, CVPR, AAAI, CIKM, PR, etc.
 + Oral in IJCAI19.
 
 # Interests
