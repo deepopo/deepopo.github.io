@@ -36,8 +36,9 @@ I'm currently enrolled in a joint Ph.D degree program in School of Computer Scie
 + [<u>Publication & Patents</u>](publication)
 
 # Award
++ National Scholarship in 2024 at Shanghai Jiao Tong University.
 + Scholarship of China Scholarship Council (CSC).
-+ National Scholarship in 2019.
++ National Scholarship in 2019 at East China Normal University.
 + Outstanding Graduate in Shanghai (Twice in 2017/2020).
 
 # Other Academic Activities
