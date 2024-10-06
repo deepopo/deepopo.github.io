@@ -10,7 +10,7 @@ Neural Information Processing Systems (**NeurIPS**), 2024.
 + **_<u>Du X</u>_**, Zhong R, Kai S, Tang Z, Xu S, Hao J, Yuan M, Yan J.  
 JigsawPlanner: Jigsaw-like Floorplanner for Eliminating Whitespace and Overlap among Complex Rectilinear Modules.  
 IEEE/ACM International Conference on Computer-Aided Design (**ICCAD**), 2024.
-+ (Survey) Zhong R*, **_<u>Du X</u>_***, Kai S, Tang Z, Xu S, Zhen H, Hao J, Xu Q, Yuan M, Yan J.  
++ (Survey) Zhong R *, **_<u>Du X</u>_** *, Kai S, Tang Z, Xu S, Zhen H, Hao J, Xu Q, Yuan M, Yan J.  
 LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation.  
 arXiv preprint arXiv:2401.12224.
 + **_<u>Du X</u>_**, Wang C, Zhong R, Yan J.  
