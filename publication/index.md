@@ -2,8 +2,11 @@
 layout: base 
 ---
 
-# Publications
+# Selected Publications
 Note: * equal contribution
++ Zhang R *, **_<u>Du X</u>_** *, Yan J, Shihua Z.  
+Decoupling Concept Bottleneck Model.  
+IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2024.
 + Zhong R, **_<u>Du X</u>_**, Kai S, Tang Z, Xu S, Hao J, Yuan M, Yan J.  
 FlexPlanner: Flexible 3D Floorplanning via Deep Reinforcement Learning in Hybrid Action Space with Multi-Modality Representation.  
 Neural Information Processing Systems (**NeurIPS**), 2024.
@@ -18,7 +21,7 @@ HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection.
 Neural Information Processing Systems (**NeurIPS**), 2023.
 + **_<u>Du X</u>_**, Yan J, Zhang R, Zha H.  
 Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction.  
-IEEE Transactions on Knowledge and Data Engineering(**TKDE**), 2022, 34(3): 1080 - 1095.
+IEEE Transactions on Knowledge and Data Engineering (**TKDE**), 2022, 34(3): 1080 - 1095.
 + **_<u>Du X</u>_**, Yan J, Zha H.  
 Joint Link Prediction and Network Alignment via Cross-graph Embedding.  
 International Joint Conference on Artificial Intelligence (**IJCAI**), 2019: 2251-2257.
