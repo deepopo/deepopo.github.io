@@ -4,7 +4,7 @@ layout: base
 
 # Selected Publications
 Note: * equal contribution
-+ Zhang R *, **_<u>Du X</u>_** *, Yan J, Shihua Z.  
++ Zhang R *, **_<u>Du X</u>_** *, Yan J, Zhang S.  
 Decoupling Concept Bottleneck Model.  
 IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2024.
 + Zhong R, **_<u>Du X</u>_**, Kai S, Tang Z, Xu S, Hao J, Yuan M, Yan J.  
