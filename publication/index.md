@@ -5,8 +5,8 @@ layout: base
 # Selected Publications
 Note: * equal contribution
 + Zhang R *, **_<u>Du X</u>_** *, Yan J, Zhang S.  
-Decoupling Concept Bottleneck Model.  
-IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2024.
+The Decoupling Concept Bottleneck Model.  
+IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2024. [paper](https://ieeexplore.ieee.org/document/10740789), [code](https://github.com/deepopo/DCBM)
 + Zhong R, **_<u>Du X</u>_**, Kai S, Tang Z, Xu S, Hao J, Yuan M, Yan J.  
 FlexPlanner: Flexible 3D Floorplanning via Deep Reinforcement Learning in Hybrid Action Space with Multi-Modality Representation.  
 Neural Information Processing Systems (**NeurIPS**), 2024.
@@ -15,16 +15,16 @@ JigsawPlanner: Jigsaw-like Floorplanner for Eliminating Whitespace and Overlap a
 IEEE/ACM International Conference on Computer-Aided Design (**ICCAD**), 2024.
 + (Survey) Zhong R *, **_<u>Du X</u>_** *, Kai S, Tang Z, Xu S, Zhen H, Hao J, Xu Q, Yuan M, Yan J.  
 LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation.  
-arXiv preprint arXiv:2401.12224.
+arXiv preprint arXiv:2401.12224. [paper](https://arxiv.org/pdf/2401.12224)
 + **_<u>Du X</u>_**, Wang C, Zhong R, Yan J.  
 HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection.  
-Neural Information Processing Systems (**NeurIPS**), 2023.
+Neural Information Processing Systems (**NeurIPS**), 2023. [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/f7f98663c516fceb582354ee2d9d274d-Paper-Conference.pdf), [code](https://github.com/Thinklab-SJTU/EDA-AI/tree/main/HubRouter)
 + **_<u>Du X</u>_**, Yan J, Zhang R, Zha H.  
 Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction.  
-IEEE Transactions on Knowledge and Data Engineering (**TKDE**), 2022, 34(3): 1080 - 1095.
+IEEE Transactions on Knowledge and Data Engineering (**TKDE**), 2022, 34(3): 1080 - 1095. [paper](https://ieeexplore.ieee.org/document/9099979), [code](https://github.com/deepopo/CENALP)
 + **_<u>Du X</u>_**, Yan J, Zha H.  
 Joint Link Prediction and Network Alignment via Cross-graph Embedding.  
-International Joint Conference on Artificial Intelligence (**IJCAI**), 2019: 2251-2257.
+International Joint Conference on Artificial Intelligence (**IJCAI**), 2019: 2251-2257. [paper](https://www.ijcai.org/Proceedings/2019/0312.pdf), [code](https://github.com/deepopo/CENALP)
 
 # Patents
 + （授权）交易检测方法、模型的训练方法、装置及计算机可读存储介质[P]. 上海市：CN113011979B, 2024-10-15.
