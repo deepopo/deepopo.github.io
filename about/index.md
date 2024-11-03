@@ -1,9 +1,6 @@
 ---
-layout: about 
+layout: base 
 ---
-
-# Short Bio
-I'm currently enrolled in a joint Ph.D degree program in School of Computer Science and Engineering, Shanghai Jiao Tong University (SJTU), and School of Computer Science and Engineering, the University of New South Wales (UNSW). Before that, I received my B.S. degree (2017) and M.E. degree (2020) in East China Normal University, respectively. From 2020 to 2022, I was employed in the Institute of Financial Technology, China UnionPay. My current research interest is **AI for CO (Combinotorial Optimization)**, which includes **Network Alignment**, **AI for EDA (Electronics Design Automation)**, and **Interpretability**. Welcome to contact with me: <u>duxingbo@sjtu.edu.cn</u>; <u>xingbo.du@unsw.edu.au</u>.
 
 # Education
 + **Shanghai Jiao Tong University**, School of Electronic Information and Electrical Engineering, Ph.D (2022.04 ~ Now)
