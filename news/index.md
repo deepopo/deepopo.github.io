@@ -4,6 +4,7 @@ layout: base
 
 # Recent News
 
+<span style="color: #1E90FF;">[2024-12]</span>&nbsp;&nbsp;&nbsp;&nbsp;I will serve as Reviewer for **ICML 2025**.  
 <span style="color: #1E90FF;">[2024-11]</span>&nbsp;&nbsp;&nbsp;&nbsp;I was invited to give a 1-hour talk at the SJTU CSE Global Luncheon.  
 <span style="color: #1E90FF;">[2024-10]</span>&nbsp;&nbsp;&nbsp;&nbsp;Our paper **DCBM** was accepted by **TPAMI**.  
 <span style="color: #1E90FF;">[2024-09]</span>&nbsp;&nbsp;&nbsp;&nbsp;I was honored the National Scholarship at Shanghai Jiao Tong University.  
