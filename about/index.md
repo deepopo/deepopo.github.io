@@ -3,11 +3,11 @@ layout: base
 ---
 
 # Education
-+ **Shanghai Jiao Tong University**, School of Electronic Information and Electrical Engineering, Ph.D (2022.04 ~ Now)
++ **Shanghai Jiao Tong University**, School of Electronic Information and Electrical Engineering, Ph.D (2022.04 ~ Now, Joint with UNSW)
   + **Class of Wuwenjun Artificial Intelligence Honorary Doctor** 
   + **Major**: Computer Science and Engineering
   + **Superviser**: Prof. [<u>Junchi Yan</u>](https://thinklab.sjtu.edu.cn/)
-+ **the University of New South Wales**, School of Computer Science and Engineering, Ph.D (2024.02 ~ Now)
++ **the University of New South Wales**, School of Computer Science and Engineering, Ph.D (2022.04 ~ Now, Joint with SJTU)
   + **Major**: Computer Science and Engineering
   + **Superviser**: Prof. [<u>Wenjie Zhang</u>](http://www.cse.unsw.edu.au/~zhangw/)
 + **East China Normal University**, School of Computer Science and Software Engineering, Master (2017.09 ~ 2020.07)
@@ -17,7 +17,7 @@ layout: base
   + **Major**: Mathematics and Applied Mathematics
 
 # Teaching
-+ **Tutor**, COMP9517 Computer Vision at UNSW (2024T2, 2024T3).
++ **Tutor**, COMP9517 Computer Vision at UNSW (2024T2, 2024T3, 2025T1).
 
 # Career
 + **China UnionPay Co., Ltd**, Institute of Financial Technology, Researcher (2020/07 ~ 2022/03)
@@ -34,7 +34,6 @@ layout: base
 
 # Award
 + National Scholarship in 2024 at Shanghai Jiao Tong University.
-+ Scholarship of China Scholarship Council (CSC).
 + National Scholarship in 2019 at East China Normal University.
 + Outstanding Graduate in Shanghai (Twice in 2017/2020).
 
