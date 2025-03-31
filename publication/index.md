@@ -4,6 +4,9 @@ layout: base
 
 # Selected Publications
 Note: * equal contribution
++ Yan R, Zheng L, **_<u>Du X</u>_** *, Zou H., Guo Y., Jiang J.  
+RecurFormer: Not All Transformer Heads Need Self-Attention.  
+First Workshop on Scalable Optimization for Efficient and Adaptive Foundation Model. (**ICLR SCOPE Workshop**), 2025. [paper](https://openreview.net/pdf?id=ADl8dT8fKm).
 + Zhang R *, **_<u>Du X</u>_** *, Yan J, Zhang S.  
 The Decoupling Concept Bottleneck Model.  
 IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2024. [paper](https://ieeexplore.ieee.org/document/10740789), [code](https://github.com/deepopo/DCBM)
