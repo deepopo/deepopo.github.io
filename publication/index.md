@@ -4,7 +4,10 @@ layout: base
 
 # Selected Publications
 Note: * equal contribution
-+ Yan R, Zheng L, **_<u>Du X</u>_** *, Zou H., Guo Y., Jiang J.  
++ Shi L, Zhang S, **_<u>Du X</u>_**, Yang N, Yan J. 
+DSBRouter: Solving Global Routing via Diffusion Schrodinger Bridge.  
+International Conference on Machine Learning. (**ICML**), 2025. [paper](https://openreview.net/pdf?id=Rxa6fWKces).
++ Yan R, Zheng L, **_<u>Du X</u>_**, Zou H, Guo Y, Jiang J.  
 RecurFormer: Not All Transformer Heads Need Self-Attention.  
 First Workshop on Scalable Optimization for Efficient and Adaptive Foundation Model. (**ICLR SCOPE Workshop**), 2025. [paper](https://openreview.net/pdf?id=ADl8dT8fKm).
 + Zhang R *, **_<u>Du X</u>_** *, Yan J, Zhang S.  
