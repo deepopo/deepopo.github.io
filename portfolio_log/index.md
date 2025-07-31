@@ -4,6 +4,11 @@ layout: base
 
 # Portfolio Log
 
+### 2025年7月
+- **组合收益率** <span style="color: #FF0000;">+5.11%</span> | **沪深300** <span style="color: #FF0000;">+3.54%</span> 
+- **月末持仓TOP5**  
+新五丰(25%)、泸州老窖(10%)、五粮液(10%)、豆粕ETF(9%)、神火股份(8%)
+
 ### 2025年6月
 - **组合收益率** <span style="color: #FF0000;">+0.79%</span> | **沪深300** <span style="color: #FF0000;">+2.50%</span> 
 - **月末持仓TOP5**  
