@@ -4,6 +4,11 @@ layout: base
 
 # Portfolio Log
 
+### 2025年8月
+- **组合收益率** <span style="color: #FF0000;">+6.66%</span> | **沪深300** <span style="color: #FF0000;">+10.33%</span> 
+- **月末持仓TOP5**  
+新五丰(25%)、宁德时代(12%)、泸州老窖(11%)、五粮液(10%)、神火股份(9%)
+
 ### 2025年7月
 - **组合收益率** <span style="color: #FF0000;">+5.11%</span> | **沪深300** <span style="color: #FF0000;">+3.54%</span> 
 - **月末持仓TOP5**  
