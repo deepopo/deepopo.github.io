@@ -4,6 +4,10 @@ layout: base
 
 # Selected Publications
 Note: * equal contribution
+## 2025 
++ **_<u>Du X</u>_**, Zhong R, Yan J. 
+Train on Pins and Test on Obstacles for Rectilinear Steiner Minimum Tree.  
+Neural Information Processing Systems (**NeurIPS**), 2025.
 + Shi L, Zhang S, **_<u>Du X</u>_**, Yang N, Yan J. 
 DSBRouter: Solving Global Routing via Diffusion Schrodinger Bridge.  
 International Conference on Machine Learning. (**ICML**), 2025. [paper](https://openreview.net/pdf?id=Rxa6fWKces).
@@ -12,22 +16,26 @@ RecurFormer: Not All Transformer Heads Need Self-Attention.
 First Workshop on Scalable Optimization for Efficient and Adaptive Foundation Model. (**ICLR SCOPE Workshop**), 2025. [paper](https://openreview.net/pdf?id=ADl8dT8fKm).
 + Zhang R *, **_<u>Du X</u>_** *, Yan J, Zhang S.  
 The Decoupling Concept Bottleneck Model.  
-IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2024. [paper](https://ieeexplore.ieee.org/document/10740789), [code](https://github.com/deepopo/DCBM)
+IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2025. [paper](https://ieeexplore.ieee.org/document/10740789), [code](https://github.com/deepopo/DCBM)
+## 2024 
 + Zhong R, **_<u>Du X</u>_**, Kai S, Tang Z, Xu S, Hao J, Yuan M, Yan J.  
 FlexPlanner: Flexible 3D Floorplanning via Deep Reinforcement Learning in Hybrid Action Space with Multi-Modality Representation.  
 Neural Information Processing Systems (**NeurIPS**), 2024.
 + **_<u>Du X</u>_**, Zhong R, Kai S, Tang Z, Xu S, Hao J, Yuan M, Yan J.  
 JigsawPlanner: Jigsaw-like Floorplanner for Eliminating Whitespace and Overlap among Complex Rectilinear Modules.  
 IEEE/ACM International Conference on Computer-Aided Design (**ICCAD**), 2024.
+## 2023 
 + (Survey) Zhong R *, **_<u>Du X</u>_** *, Kai S, Tang Z, Xu S, Zhen H, Hao J, Xu Q, Yuan M, Yan J.  
 LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation.  
 arXiv preprint arXiv:2401.12224. [paper](https://arxiv.org/pdf/2401.12224)
 + **_<u>Du X</u>_**, Wang C, Zhong R, Yan J.  
 HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection.  
 Neural Information Processing Systems (**NeurIPS**), 2023. [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/f7f98663c516fceb582354ee2d9d274d-Paper-Conference.pdf), [code](https://github.com/Thinklab-SJTU/EDA-AI/tree/main/HubRouter)
+## 2022 
 + **_<u>Du X</u>_**, Yan J, Zhang R, Zha H.  
 Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction.  
 IEEE Transactions on Knowledge and Data Engineering (**TKDE**), 2022, 34(3): 1080 - 1095. [paper](https://ieeexplore.ieee.org/document/9099979), [code](https://github.com/deepopo/CENALP)
+## 2019 
 + **_<u>Du X</u>_**, Yan J, Zha H.  
 Joint Link Prediction and Network Alignment via Cross-graph Embedding.  
 International Joint Conference on Artificial Intelligence (**IJCAI**), 2019: 2251-2257. [paper](https://www.ijcai.org/Proceedings/2019/0312.pdf), [code](https://github.com/deepopo/CENALP)
