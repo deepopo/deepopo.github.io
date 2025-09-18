@@ -38,7 +38,7 @@ layout: base
 + Outstanding Graduate in Shanghai (Twice in 2017/2020).
 
 # Other Academic Activities
-+ Serve as Reviewer: TPAMI, ICML, NeurIPS, ICLR, CVPR, AAAI, CIKM, PR, etc.
++ Serve as Reviewer: IEEE TPAMI, ICML, NeurIPS, ICLR, IEEE TCAD, CVPR, AAAI, CIKM, PR, etc.
 + Oral in IJCAI 2019, ICCAD 2024.
 
 # Interests
