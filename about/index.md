@@ -3,11 +3,11 @@ layout: base
 ---
 
 # Education
-+ **Shanghai Jiao Tong University**, School of Electronic Information and Electrical Engineering, Ph.D (2022.04 ~ Now, Joint with UNSW)
++ **Shanghai Jiao Tong University**, School of Electronic Information and Electrical Engineering, Ph.D (2022.04 ~ 2025.09, Joint with UNSW)
   + **Class of Wuwenjun Artificial Intelligence Honorary Doctor** 
   + **Major**: Computer Science and Engineering
   + **Superviser**: Prof. [<u>Junchi Yan</u>](https://thinklab.sjtu.edu.cn/)
-+ **the University of New South Wales**, School of Computer Science and Engineering, Ph.D (2022.04 ~ Now, Joint with SJTU)
++ **the University of New South Wales**, School of Computer Science and Engineering, Ph.D (2022.04 ~ 2025.09, Joint with SJTU)
   + **Major**: Computer Science and Engineering
   + **Superviser**: Prof. [<u>Wenjie Zhang</u>](http://www.cse.unsw.edu.au/~zhangw/)
 + **East China Normal University**, School of Computer Science and Software Engineering, Master (2017.09 ~ 2020.07)
@@ -30,7 +30,7 @@ layout: base
   + Research on the interpretability of neural networks for trusted security. We study the concept bottleneck model in image classification and propose a human-computer interaction system based on semantic information, which can implement model intervention and correction.
 
 # Publication & Patents
-+ [<u>Publication & Patents</u>](publication)
++ [<u>Publication & Patents</u>](../publication)
 
 # Award
 + National Scholarship in 2024 at Shanghai Jiao Tong University.
@@ -39,7 +39,7 @@ layout: base
 
 # Other Academic Activities
 + Serve as Reviewer: TPAMI, ICML, NeurIPS, ICLR, CVPR, AAAI, CIKM, PR, etc.
-+ Oral in IJCAI19.
++ Oral in IJCAI 2019, ICCAD 2024.
 
 # Interests
 Apart from the research, I'm also interested in investment and music.
