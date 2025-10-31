@@ -3,10 +3,12 @@ layout: about
 ---
 
 # Short Bio
-I am a postdoctoral researcher at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). Before that, I earned my joint Ph.D. from Shanghai Jiao Tong University (SJTU) and the University of New South Wales (UNSW). My research focuses on **AI for Foundational Combinatorial Optimization**, **AI for Industrial Combinatorial Optimization**, and **Trustworthiness and Interpretability**. Feel free to contact with me: <u>Xingbo.Du@mbzuai.ac.ae</u>.
+I am a postdoctoral associate at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). Before that, I earned my joint Ph.D. from Shanghai Jiao Tong University (SJTU) and the University of New South Wales (UNSW). My research focuses on **AI for Foundational Combinatorial Optimization**, **AI for Industrial Combinatorial Optimization**, and **Trustworthiness and Interpretability**. Feel free to contact with me: <u>Xingbo.Du@mbzuai.ac.ae</u>.
 
 # Recent News
-<span style="color: #1E90FF;">[2025-09]</span>&nbsp;&nbsp;&nbsp;&nbsp;I received my **PhD** from SJTU.  
+<span style="color: #1E90FF;">[2025-10]</span>&nbsp;&nbsp;&nbsp;&nbsp;I received my **PhD** from **UNSW**.  
+<span style="color: #1E90FF;">[2025-10]</span>&nbsp;&nbsp;&nbsp;&nbsp;I joined **MBZUAI** as a postdoctoral associate.  
+<span style="color: #1E90FF;">[2025-09]</span>&nbsp;&nbsp;&nbsp;&nbsp;I received my **PhD** from **SJTU**.  
 <span style="color: #1E90FF;">[2025-09]</span>&nbsp;&nbsp;&nbsp;&nbsp;Our paper **OAREST** was accepted by **NeurIPS 2025**.  
 <span style="color: #1E90FF;">[2025-09]</span>&nbsp;&nbsp;&nbsp;&nbsp;I will serve as Reviewer for **ICLR 2026**.  
 <span style="color: #1E90FF;">[2025-07]</span>&nbsp;&nbsp;&nbsp;&nbsp;I will serve as Program Committee for **AAAI 2026**.  

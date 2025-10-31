@@ -8,8 +8,8 @@ Note: * equal contribution
 ## 2025
 + **_<u>Du X</u>_**, Zhong R, Yan J.  
 Train on Pins and Test on Obstacles for Rectilinear Steiner Minimum Tree.  
-Neural Information Processing Systems (**NeurIPS**), 2025.
-+ Shi L, Zhang S, **_<u>Du X</u>_**, Yang N, Yan J. 
+Neural Information Processing Systems (**NeurIPS**), 2025. [code](https://github.com/Thinklab-SJTU/EDA-AI/tree/main/OAREST)
++ Shi L, Zhang S, **_<u>Du X</u>_**, Yang N, Yan J.  
 DSBRouter: Solving Global Routing via Diffusion Schrodinger Bridge.  
 International Conference on Machine Learning. (**ICML**), 2025. [paper](https://openreview.net/pdf?id=Rxa6fWKces).
 + Yan R, Zheng L, **_<u>Du X</u>_**, Zou H, Guo Y, Jiang J.  

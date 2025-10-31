@@ -4,6 +4,11 @@ layout: base
 
 # Portfolio Log
 
+### 2025年10月
+- **组合收益率** <span style="color: #00FF00;">-0.10%</span> | **沪深300** <span style="color: #00FF00;">-0.00%</span> 
+- **月末持仓TOP5**  
+贵州茅台(23%)、新五丰(20%)、美团-W(13%)、神火股份(9%)、泸州老窖(8%)
+
 ### 2025年9月
 - **组合收益率** <span style="color: #FF0000;">+4.13%</span> | **沪深300** <span style="color: #FF0000;">+3.20%</span> 
 - **月末持仓TOP5**  
