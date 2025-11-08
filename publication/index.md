@@ -3,9 +3,12 @@ layout: base
 ---
 
 # Selected Publications
-Note: * equal contribution
+Note: * equal contribution, &dagger; corresponding authors.
 
 ## 2025
++ **_<u>Du X</u>_** * &dagger;, Dou Q *, Fan L, Zhang R &dagger;.  
+Flexible Concept Bottleneck Model.  
+AAAI Conference on Artificial Intelligence (**AAAI**), 2026. [code](https://github.com/deepopo/FCBM)
 + **_<u>Du X</u>_**, Zhong R, Yan J.  
 Train on Pins and Test on Obstacles for Rectilinear Steiner Minimum Tree.  
 Neural Information Processing Systems (**NeurIPS**), 2025. [code](https://github.com/Thinklab-SJTU/EDA-AI/tree/main/OAREST)
