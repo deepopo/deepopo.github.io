@@ -4,6 +4,7 @@ layout: base
 
 # Recent News
 
+<span style="color: #1E90FF;">[2025-12]</span>&nbsp;&nbsp;&nbsp;&nbsp;I will serve as Reviewer for **ICML 2026**.  
 <span style="color: #1E90FF;">[2025-11]</span>&nbsp;&nbsp;&nbsp;&nbsp;I will serve as Reviewer for **CVPR 2026**.  
 <span style="color: #1E90FF;">[2025-11]</span>&nbsp;&nbsp;&nbsp;&nbsp;Our paper **FCBM** was accepted by **AAAI 2026**.  
 <span style="color: #1E90FF;">[2025-10]</span>&nbsp;&nbsp;&nbsp;&nbsp;I received my **PhD** from **UNSW**.  
