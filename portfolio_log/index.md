@@ -4,6 +4,11 @@ layout: base
 
 # Portfolio Log
 
+### 2026年1月
+- **组合收益率** <span style="color: #FF0000;">7.41%</span> | **沪深300** <span style="color: #FF0000;">1.65%</span> 
+- **月末持仓TOP5**  
+贵州茅台(21%)、新五丰(18%)、神火股份(12%)、宁德时代(8%)、内蒙华电(7%)
+
 ### 2025年12月
 - **组合收益率** <span style="color: #00FF00;">-2.67%</span> | **沪深300** <span style="color: #FF0000;">2.28%</span> 
 - **月末持仓TOP5**  
