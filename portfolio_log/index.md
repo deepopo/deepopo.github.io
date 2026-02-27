@@ -4,6 +4,11 @@ layout: base
 
 # Portfolio Log
 
+### 2026年2月
+- **组合收益率** <span style="color: #00FF00;">-4.02%</span> | **沪深300** <span style="color: #FF0000;">0.09%</span> 
+- **月末持仓TOP5**  
+贵州茅台(23%)、新五丰(22%)、神火股份(12%)、泸州老窖(9%)、港股红利低波ETF(9%)
+
 ### 2026年1月
 - **组合收益率** <span style="color: #FF0000;">7.41%</span> | **沪深300** <span style="color: #FF0000;">1.65%</span> 
 - **月末持仓TOP5**  
