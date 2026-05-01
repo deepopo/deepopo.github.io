@@ -4,6 +4,11 @@ layout: base
 
 # Portfolio Log
 
+### 2026年4月
+- **组合收益率** <span style="color: #FF0000;">4.74%</span> | **沪深300** <span style="color: #FF0000;">8.03%</span> 
+- **月末持仓TOP5**  
+贵州茅台(25%)、新五丰(23%)、云铝股份(17%)、海尔智家(13%)、华能蒙电(10%)
+
 ### 2026年3月
 - **组合收益率** <span style="color: #00FF00;">-7.47%</span> | **沪深300** <span style="color: #00FF00;">-5.53%</span> 
 - **月末持仓TOP5**  

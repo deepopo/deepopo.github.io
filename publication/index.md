@@ -5,10 +5,18 @@ layout: base
 # Selected Publications
 Note: * equal contribution, &dagger; corresponding authors.
 
-## 2025
+## 2026
++ Zhong R, **_<u>Du X</u>_**, Yan J.  
+RulePlanner: All-in-One Reinforcement Learner for Unifying Design Rules in 3D Floorplanning.  
+International Conference on Machine Learning. (**ICML**), 2026.  
++ Wu B, ..., **_<u>Du X</u>_**, etc.  
+RSMeM: Knowledge-Enhanced Memory Evolution for Remote Sensing Agents with Systematic Evaluation.  
+Annual Meeting of the Association for Computational Linguistics. (**ACL**), 2026.  
 + **_<u>Du X</u>_** * &dagger;, Dou Q *, Fan L, Zhang R &dagger;.  
 Flexible Concept Bottleneck Model.  
 AAAI Conference on Artificial Intelligence (**AAAI**), 2026. [code](https://github.com/deepopo/FCBM)
+
+## 2025
 + **_<u>Du X</u>_**, Zhong R, Yan J.  
 Train on Pins and Test on Obstacles for Rectilinear Steiner Minimum Tree.  
 Neural Information Processing Systems (**NeurIPS**), 2025. [code](https://github.com/Thinklab-SJTU/EDA-AI/tree/main/OAREST)

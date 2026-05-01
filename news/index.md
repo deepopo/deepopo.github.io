@@ -4,6 +4,9 @@ layout: base
 
 # Recent News
 
+<span style="color: #1E90FF;">[2026-04]</span>&nbsp;&nbsp;&nbsp;&nbsp;Our paper **RulePlanner** was accepted by **ICML 2026**.  
+<span style="color: #1E90FF;">[2026-04]</span>&nbsp;&nbsp;&nbsp;&nbsp;Our paper **RSMeM** was accepted by **ACL 2026**.  
+<span style="color: #1E90FF;">[2026-03]</span>&nbsp;&nbsp;&nbsp;&nbsp;I will serve as Reviewer for **NeurIPS 2026**.  
 <span style="color: #1E90FF;">[2026-02]</span>&nbsp;&nbsp;&nbsp;&nbsp;I will serve as Reviewer for **ECCV 2026**.  
 <span style="color: #1E90FF;">[2026-01]</span>&nbsp;&nbsp;&nbsp;&nbsp;I will serve as Reviewer for **ACL 2026**.  
 <span style="color: #1E90FF;">[2025-12]</span>&nbsp;&nbsp;&nbsp;&nbsp;I will serve as Reviewer for **ICML 2026**.  
