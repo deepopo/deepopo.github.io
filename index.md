@@ -6,6 +6,7 @@ layout: about
 I am a postdoctoral associate at the Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). Before that, I earned my joint Ph.D. from Shanghai Jiao Tong University (SJTU) and the University of New South Wales (UNSW). My research focuses on **AI for Foundational Combinatorial Optimization**, **AI for Industrial Combinatorial Optimization**, and **LLM Agent Systems for Industrial Combinatorial Optimization Problems**. Feel free to contact with me: <u>Xingbo.Du@mbzuai.ac.ae</u>.
 
 # Recent News
+<span style="color: #1E90FF;">[2026-08]</span>&nbsp;&nbsp;&nbsp;&nbsp;I will serve as Reviewer for **ICLR 2027**.  
 <span style="color: #1E90FF;">[2026-07]</span>&nbsp;&nbsp;&nbsp;&nbsp;I will serve as Program Committee for **AAAI 2027**.  
 <span style="color: #1E90FF;">[2026-04]</span>&nbsp;&nbsp;&nbsp;&nbsp;Our paper **RulePlanner** was accepted by **ICML 2026**.  
 <span style="color: #1E90FF;">[2026-04]</span>&nbsp;&nbsp;&nbsp;&nbsp;Our paper **RSMeM** was accepted by **ACL 2026**.  
