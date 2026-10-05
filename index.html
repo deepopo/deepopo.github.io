@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Xingbo Du</title>
-  <meta name="description" content="Xingbo Du — Postdoctoral Researcher at MBZUAI. Agent harnesses for complex, verifiable tasks, and learned solvers for combinatorial optimization.">
-  <meta name="author" content="Xingbo Du">
-  <meta property="og:title" content="Xingbo Du">
-  <meta property="og:description" content="Agent harnesses for complex, verifiable tasks · learned solvers for combinatorial optimization.">
+  <title data-zh="杜星波">Xingbo Du</title>
+  <meta name="description" content="Xingbo Du — Postdoctoral Researcher at MBZUAI. Agent harnesses for complex, verifiable tasks, and learned solvers for combinatorial optimization." data-zh-content="杜星波——MBZUAI 博士后研究员。研究面向复杂、可验证任务的智能体运行框架，以及组合优化的学习型求解器。">
+  <meta name="author" content="Xingbo Du" data-zh-content="杜星波">
+  <meta property="og:title" content="Xingbo Du" data-zh-content="杜星波">
+  <meta property="og:description" content="Agent harnesses for complex, verifiable tasks · learned solvers for combinatorial optimization." data-zh-content="面向复杂、可验证任务的智能体运行框架 · 组合优化的学习型求解器。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://deepopo.github.io/">
   <meta property="og:image" content="https://deepopo.github.io/assets/img/portrait.jpg">
@@ -37,14 +37,15 @@
 
 <header class="topbar" id="topbar">
   <div class="wrap">
-    <a class="brand" href="#top">Xingbo Du</a>
-    <nav class="nav" aria-label="Sections">
-      <a href="#research">Research</a>
-      <a href="#publications" class="keep">Publications</a>
-      <a href="#news">News</a>
-      <a href="#experience">Experience</a>
-      <a href="#more">Service</a>
-      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode">
+    <a class="brand" href="#top" data-zh="杜星波">Xingbo Du</a>
+    <nav class="nav" aria-label="Sections" data-zh-aria-label="页面导航">
+      <a href="#research" data-zh="研究方向">Research</a>
+      <a href="#publications" class="keep" data-zh="论文发表">Publications</a>
+      <a href="#news" data-zh="最新动态">News</a>
+      <a href="#experience" data-zh="工作经历">Experience</a>
+      <a href="#more" data-zh="学术服务">Service</a>
+      <button class="language-toggle" id="languageToggle" type="button" aria-label="Switch to Chinese" aria-pressed="false" hidden><span class="lang-zh" lang="zh-CN">中</span><span class="lang-divider" aria-hidden="true">/</span><span class="lang-en" lang="en">EN</span></button>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle dark mode" data-zh-aria-label="切换深浅色主题">
         <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z"/></svg>
         <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg>
       </button>
@@ -58,12 +59,12 @@
   <section class="hero">
     <div class="wrap">
       <div>
-        <p class="eyebrow">Postdoctoral Researcher · MBZUAI</p>
-        <h1 class="name">Xingbo Du</h1>
-        <p class="lede">I build <em>harnesses</em> that turn language models into dependable problem-solvers for complex tasks, where every answer has to pass an external check.</p>
+        <p class="eyebrow" data-zh="博士后研究员 · MBZUAI">Postdoctoral Researcher · MBZUAI</p>
+        <h1 class="name" data-zh="杜星波">Xingbo Du</h1>
+        <p class="lede" data-zh="我为大语言模型构建智能体&lt;em&gt;运行框架&lt;/em&gt;，让模型能够可靠地完成复杂任务，并确保输出结果经过外部验证。">I build <em>harnesses</em> that turn language models into dependable problem-solvers for complex tasks, where every answer has to pass an external check.</p>
         <div class="bio">
-          <p>I am a postdoctoral researcher at the <strong>Mohamed bin Zayed University of Artificial Intelligence</strong> (MBZUAI), working with Prof. <a class="link" href="https://dasongle.github.io/index.html" target="_blank" rel="noopener">Le Song</a> on LLM agents for science. I received my Ph.D. in Computer Science from a joint program between <strong>Shanghai Jiao Tong University</strong> and the <strong>University of New South Wales</strong>, advised by Prof. <a class="link" href="https://thinklab.sjtu.edu.cn/" target="_blank" rel="noopener">Junchi Yan</a> and Prof. <a class="link" href="http://www.cse.unsw.edu.au/~zhangw/" target="_blank" rel="noopener">Wenjie Zhang</a>.</p>
-          <p>My work sits between machine learning and optimization. Today I focus on the machinery around the model: grounding requirements as executable constraints, searching over programs and configurations, verifying in stages when evaluation is expensive, and keeping a memory of what worked. Before that, I built learned solvers for combinatorial problems in routing and floorplanning.</p>
+          <p data-zh="我目前在&lt;strong&gt;穆罕默德·本·扎耶德人工智能大学&lt;/strong&gt;（MBZUAI）从事博士后研究，与 &lt;a class=&quot;link&quot; href=&quot;https://dasongle.github.io/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Le Song&lt;/a&gt; 教授合作，探索大语言模型智能体如何助力科学研究。博士期间，我由&lt;strong&gt;上海交通大学&lt;/strong&gt;与&lt;strong&gt;新南威尔士大学&lt;/strong&gt;联合培养，在 &lt;a class=&quot;link&quot; href=&quot;https://thinklab.sjtu.edu.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Junchi Yan&lt;/a&gt; 教授和 &lt;a class=&quot;link&quot; href=&quot;http://www.cse.unsw.edu.au/~zhangw/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Wenjie Zhang&lt;/a&gt; 教授的指导下完成了计算机科学博士学业。">I am a postdoctoral researcher at the <strong>Mohamed bin Zayed University of Artificial Intelligence</strong> (MBZUAI), working with Prof. <a class="link" href="https://dasongle.github.io/index.html" target="_blank" rel="noopener">Le Song</a> on LLM agents for science. I received my Ph.D. in Computer Science from a joint program between <strong>Shanghai Jiao Tong University</strong> and the <strong>University of New South Wales</strong>, advised by Prof. <a class="link" href="https://thinklab.sjtu.edu.cn/" target="_blank" rel="noopener">Junchi Yan</a> and Prof. <a class="link" href="http://www.cse.unsw.edu.au/~zhangw/" target="_blank" rel="noopener">Wenjie Zhang</a>.</p>
+          <p data-zh="我的研究关注机器学习与优化的结合。目前，我重点研究大语言模型智能体的任务执行与验证机制，包括将任务需求转化为可执行的约束条件、搜索可行的程序与配置方案，以及积累和复用成功经验。对于评估成本较高的任务，我采用分阶段验证的方式检验候选方案。此前，我主要研究基于机器学习的求解器，用于解决布线和布局规划等组合优化问题。">My work sits between machine learning and optimization. Today I focus on the machinery around the model: grounding requirements as executable constraints, searching over programs and configurations, verifying in stages when evaluation is expensive, and keeping a memory of what worked. Before that, I built learned solvers for combinatorial problems in routing and floorplanning.</p>
         </div>
         <div class="contact">
           <a class="chip primary" href="mailto:Xingbo.Du@mbzuai.ac.ae"><svg><use href="#i-mail"/></svg>Xingbo.Du@mbzuai.ac.ae</a>
@@ -72,8 +73,8 @@
         </div>
       </div>
       <figure class="portrait">
-        <img src="assets/img/portrait.jpg" alt="Xingbo Du giving a talk" width="560" height="700">
-        <figcaption>Abu Dhabi, UAE<br>Oral talk, IJCAI 2019 · Macao</figcaption>
+        <img src="assets/img/portrait.jpg" alt="Xingbo Du giving a talk" width="560" height="700" data-zh-alt="杜星波作学术报告">
+        <figcaption data-zh="阿联酋 · 阿布扎比&lt;br&gt;IJCAI 2019 口头报告 · 澳门">Abu Dhabi, UAE<br>Oral talk, IJCAI 2019 · Macao</figcaption>
       </figure>
     </div>
   </section>
@@ -83,42 +84,42 @@
     <div class="wrap">
       <div class="section-label"><div class="inner">
         <div class="num">01</div>
-        <h2>Research</h2>
-        <p>From solving one well-posed problem to running the whole loop an engineer runs.</p>
+        <h2 data-zh="研究方向">Research</h2>
+        <p data-zh="从求解一个定义明确的问题，到完成工程师处理问题的完整流程。">From solving one well-posed problem to running the whole loop an engineer runs.</p>
       </div></div>
 
       <div>
         <article class="theme-main reveal">
-          <span class="tag">Primary direction</span>
-          <h3>Agent harnesses for complex, verifiable tasks</h3>
-          <p>A strong model is not enough when requirements change mid-task, tools are many, and each evaluation costs hours. The harness around the model decides what it sees, what it may try, how results are checked, and what it remembers. I study each of these parts separately, with fixed budgets and graders the agent cannot edit.</p>
+          <span class="tag" data-zh="主要研究方向">Primary direction</span>
+          <h3 data-zh="面向复杂、可验证任务的智能体运行框架">Agent harnesses for complex, verifiable tasks</h3>
+          <p data-zh="当需求在任务执行过程中发生变化、可用工具众多、每次评估又耗时数小时，强大的模型本身还不够。模型周围的运行框架决定了它能看到什么、尝试哪些方案、如何检查结果，以及记住哪些经验。我在固定预算和智能体无法修改的评估器下，分别研究这些机制。">A strong model is not enough when requirements change mid-task, tools are many, and each evaluation costs hours. The harness around the model decides what it sees, what it may try, how results are checked, and what it remembers. I study each of these parts separately, with fixed budgets and graders the agent cannot edit.</p>
 
           <ol class="loop">
-            <li><span class="dot">01</span><h4>Grounding</h4><p>Turn natural-language requirements into executable, checkable constraints.</p></li>
-            <li><span class="dot">02</span><h4>Search</h4><p>Search over solver code, parameters, and tool scripts, not just final answers.</p></li>
-            <li><span class="dot">03</span><h4>Staged verification</h4><p>Run cheap checks first; spend expensive runs only on candidates that survive.</p></li>
-            <li><span class="dot">04</span><h4>Memory</h4><p>Track what worked, where, and why, and find out what evidence is still missing.</p></li>
+            <li><span class="dot">01</span><h4 data-zh="需求落地">Grounding</h4><p data-zh="将自然语言需求转化为可执行、可检验的约束。">Turn natural-language requirements into executable, checkable constraints.</p></li>
+            <li><span class="dot">02</span><h4 data-zh="方案搜索">Search</h4><p data-zh="搜索求解器代码、参数与工具脚本，而不只搜索最终答案。">Search over solver code, parameters, and tool scripts, not just final answers.</p></li>
+            <li><span class="dot">03</span><h4 data-zh="分阶段验证">Staged verification</h4><p data-zh="先运行低成本检查，将昂贵评估留给通过初筛的候选方案。">Run cheap checks first; spend expensive runs only on candidates that survive.</p></li>
+            <li><span class="dot">04</span><h4 data-zh="经验记忆">Memory</h4><p data-zh="记录哪些方案有效、在何种情况下有效、为什么有效，并识别仍然缺失的证据。">Track what worked, where, and why, and find out what evidence is still missing.</p></li>
           </ol>
 
           <div class="next">
-            <span class="k">Next</span>
-            <p><strong>Self-improving harnesses under fixed verifiers.</strong> The harness proposes edits to itself; independent checkers on held-out tasks decide whether each change is kept or rolled back.</p>
+            <span class="k" data-zh="下一步">Next</span>
+            <p data-zh="&lt;strong&gt;在固定验证器下持续改进运行框架。&lt;/strong&gt;框架提出对自身的修改，由独立检查器在留出任务上评估，再决定保留还是回滚每项变更。"><strong>Self-improving harnesses under fixed verifiers.</strong> The harness proposes edits to itself; independent checkers on held-out tasks decide whether each change is kept or rolled back.</p>
           </div>
 
-          <div class="works"><span><b>MemR³</b> NeurIPS'26</span><span><b>BioXArena</b> NeurIPS ED'26</span><span><b>RSMeM</b> ACL'26</span><span><b>LLM4EDA</b> survey</span></div>
+          <div class="works" data-zh="&lt;span&gt;&lt;b&gt;MemR³&lt;/b&gt; NeurIPS’26&lt;/span&gt;&lt;span&gt;&lt;b&gt;BioXArena&lt;/b&gt; NeurIPS ED’26&lt;/span&gt;&lt;span&gt;&lt;b&gt;RSMeM&lt;/b&gt; ACL’26&lt;/span&gt;&lt;span&gt;&lt;b&gt;LLM4EDA&lt;/b&gt; 综述&lt;/span&gt;"><span><b>MemR³</b> NeurIPS'26</span><span><b>BioXArena</b> NeurIPS ED'26</span><span><b>RSMeM</b> ACL'26</span><span><b>LLM4EDA</b> survey</span></div>
         </article>
 
         <div class="themes-sub">
           <article class="theme reveal">
-            <span class="tag muted">Foundation</span>
-            <h3>Learned solvers for combinatorial optimization</h3>
-            <p>Put problem structure (connectivity, obstacles, module shapes) into the representation, so feasibility holds by construction instead of being repaired afterwards. Applied to routing, Steiner trees, floorplanning, and graph alignment.</p>
+            <span class="tag muted" data-zh="研究基础">Foundation</span>
+            <h3 data-zh="组合优化的学习型求解器">Learned solvers for combinatorial optimization</h3>
+            <p data-zh="将问题结构（连通性、障碍物、模块形状）融入表示，使构造过程本身保证可行性，而不是事后修复。应用包括布线、斯坦纳树、布局规划与图对齐。">Put problem structure (connectivity, obstacles, module shapes) into the representation, so feasibility holds by construction instead of being repaired afterwards. Applied to routing, Steiner trees, floorplanning, and graph alignment.</p>
             <div class="works"><span><b>HubRouter</b> NeurIPS'23</span><span><b>OAREST</b> NeurIPS'25</span><span><b>JigsawPlanner</b> ICCAD'24</span><span><b>CENALP</b> IJCAI'19 · TKDE'22</span></div>
           </article>
           <article class="theme reveal">
-            <span class="tag muted">Also</span>
-            <h3>Interpretable learning</h3>
-            <p>Concept bottleneck models whose predictions pass through human-readable concepts, and stay accurate when concepts are removed, corrected, or swapped at test time.</p>
+            <span class="tag muted" data-zh="其他研究">Also</span>
+            <h3 data-zh="可解释学习">Interpretable learning</h3>
+            <p data-zh="研究概念瓶颈模型，使预测经过人类可理解的概念，并在测试时移除、修正或替换概念后，仍能保持准确性。">Concept bottleneck models whose predictions pass through human-readable concepts, and stay accurate when concepts are removed, corrected, or swapped at test time.</p>
             <div class="works"><span><b>DCBM</b> TPAMI'25</span><span><b>FCBM</b> AAAI'26</span></div>
           </article>
         </div>
@@ -131,19 +132,19 @@
     <div class="wrap">
       <div class="section-label"><div class="inner">
         <div class="num">02</div>
-        <h2>Publications</h2>
-        <p>* equal contribution · † corresponding author</p>
+        <h2 data-zh="论文发表">Publications</h2>
+        <p data-zh="* 共同第一作者 · † 通讯作者">* equal contribution · † corresponding author</p>
       </div></div>
 
       <div>
         <div class="pub-tools">
-          <div class="filters" role="group" aria-label="Filter by topic">
-            <button class="filter" data-filter="all" aria-pressed="true">All</button>
-            <button class="filter" data-filter="agents" aria-pressed="false">LLMs &amp; Agents</button>
-            <button class="filter" data-filter="opt" aria-pressed="false">Optimization</button>
-            <button class="filter" data-filter="interp" aria-pressed="false">Interpretability</button>
+          <div class="filters" role="group" aria-label="Filter by topic" data-zh-aria-label="按研究方向筛选论文">
+            <button class="filter" data-filter="all" aria-pressed="true"><span data-zh="全部">All</span></button>
+            <button class="filter" data-filter="agents" aria-pressed="false"><span data-zh="大模型与智能体">LLMs &amp; Agents</span></button>
+            <button class="filter" data-filter="opt" aria-pressed="false"><span data-zh="组合优化">Optimization</span></button>
+            <button class="filter" data-filter="interp" aria-pressed="false"><span data-zh="可解释性">Interpretability</span></button>
           </div>
-          <label class="switch"><input type="checkbox" id="firstOnly"><span class="track"></span>First / co-first author</label>
+          <label class="switch"><input type="checkbox" id="firstOnly"><span class="track"></span><span data-zh="仅显示第一／共同第一作者">First / co-first author</span></label>
         </div>
 
         <div id="pubList">
@@ -152,48 +153,48 @@
             <div class="year">2026</div>
             <ul class="pubs">
               <li class="pub" data-tags="agents" data-first="1">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/memr3.png" data-caption="Knowing What is Missing: Efficient Conversational Memory via Explicit Evidence-Gap Tracking" aria-label="Enlarge figure: MemR³"><img src="assets/img/pipelines/thumb/memr3.jpg" alt="Pipeline figure of MemR³" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/memr3.png" data-caption="Knowing What is Missing: Efficient Conversational Memory via Explicit Evidence-Gap Tracking" aria-label="Enlarge figure: MemR³" data-zh-data-caption="识别缺失信息：通过显式证据缺口追踪实现高效对话记忆" data-zh-aria-label="放大论文示意图：MemR³"><img src="assets/img/pipelines/thumb/memr3.jpg" alt="Pipeline figure of MemR³" loading="lazy" decoding="async" data-zh-alt="识别缺失信息：通过显式证据缺口追踪实现高效对话记忆的流程示意图"></button>
                 <div class="pub-body">
                   <div class="pub-venue"><span class="venue top">NeurIPS 2026</span><span class="alias">MemR³</span></div>
-                  <p class="pub-title">Knowing What is Missing: Efficient Conversational Memory via Explicit Evidence-Gap Tracking</p>
-                  <p class="pub-authors"><span class="me">Du Xingbo</span>, Li Loka, Zhang Duzhen, Song Leonard, Song Le</p>
-                  <div class="pub-links"><a href="https://arxiv.org/abs/2512.20237" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>arXiv</a><a href="https://github.com/mbzuai-ai4bio/memr3" target="_blank" rel="noopener"><svg><use href="#i-code"/></svg>Code</a></div>
+                  <p class="pub-title" data-zh="识别缺失信息：通过显式证据缺口追踪实现高效对话记忆">Knowing What is Missing: Efficient Conversational Memory via Explicit Evidence-Gap Tracking</p>
+                  <p class="pub-authors"><span class="me" data-zh="杜星波">Du Xingbo</span>, Li Loka, Zhang Duzhen, Song Leonard, Song Le</p>
+                  <div class="pub-links"><a href="https://arxiv.org/abs/2512.20237" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>arXiv</a><a href="https://github.com/mbzuai-ai4bio/memr3" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-code&quot;/&gt;&lt;/svg&gt;代码"><svg><use href="#i-code"/></svg>Code</a></div>
                 </div>
               </li>
               <li class="pub" data-tags="agents">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/bioxarena.png" data-caption="BioXArena: Benchmarking LLM Agents on Multi-Modal Biomedical Machine Learning Tasks" aria-label="Enlarge figure: BioXArena"><img src="assets/img/pipelines/thumb/bioxarena.jpg" alt="Pipeline figure of BioXArena" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/bioxarena.png" data-caption="BioXArena: Benchmarking LLM Agents on Multi-Modal Biomedical Machine Learning Tasks" aria-label="Enlarge figure: BioXArena" data-zh-data-caption="BioXArena：多模态生物医学机器学习任务中的大语言模型智能体评测基准" data-zh-aria-label="放大论文示意图：BioXArena"><img src="assets/img/pipelines/thumb/bioxarena.jpg" alt="Pipeline figure of BioXArena" loading="lazy" decoding="async" data-zh-alt="BioXArena：多模态生物医学机器学习任务中的大语言模型智能体评测基准的流程示意图"></button>
                 <div class="pub-body">
                   <div class="pub-venue"><span class="venue top">NeurIPS ED 2026</span><span class="alias">BioXArena</span></div>
-                  <p class="pub-title">BioXArena: Benchmarking LLM Agents on Multi-Modal Biomedical Machine Learning Tasks</p>
-                  <p class="pub-authors">Li Loka, Zhang Duzhen, <span class="me">Du Xingbo</span>, Song Leonard, Wang Zixiao, Aukenov Assanali, Thomas Noel, Sailaukan Shakhnazar, Yang Yonghan, Chen Feilong, Dong Jiahua, Zhang Kun, Zhang Bin, Song Le</p>
-                  <div class="pub-links"><a href="https://arxiv.org/abs/2605.15766" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>arXiv</a><a href="https://github.com/mbzuai-ai4bio/BioXArena" target="_blank" rel="noopener"><svg><use href="#i-code"/></svg>Code</a><a href="https://huggingface.co/datasets/mbzuai-ai4bio/BioXArena-Data-Public" target="_blank" rel="noopener"><svg><use href="#i-data"/></svg>Dataset</a></div>
+                  <p class="pub-title" data-zh="BioXArena：多模态生物医学机器学习任务中的大语言模型智能体评测基准">BioXArena: Benchmarking LLM Agents on Multi-Modal Biomedical Machine Learning Tasks</p>
+                  <p class="pub-authors">Li Loka, Zhang Duzhen, <span class="me" data-zh="杜星波">Du Xingbo</span>, Song Leonard, Wang Zixiao, Aukenov Assanali, Thomas Noel, Sailaukan Shakhnazar, Yang Yonghan, Chen Feilong, Dong Jiahua, Zhang Kun, Zhang Bin, Song Le</p>
+                  <div class="pub-links"><a href="https://arxiv.org/abs/2605.15766" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>arXiv</a><a href="https://github.com/mbzuai-ai4bio/BioXArena" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-code&quot;/&gt;&lt;/svg&gt;代码"><svg><use href="#i-code"/></svg>Code</a><a href="https://huggingface.co/datasets/mbzuai-ai4bio/BioXArena-Data-Public" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-data&quot;/&gt;&lt;/svg&gt;数据集"><svg><use href="#i-data"/></svg>Dataset</a></div>
                 </div>
               </li>
               <li class="pub" data-tags="opt">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/ruleplanner.png" data-caption="RulePlanner: All-in-One Reinforcement Learner for Unifying Design Rules in 3D Floorplanning" aria-label="Enlarge figure: RulePlanner"><img src="assets/img/pipelines/thumb/ruleplanner.jpg" alt="Pipeline figure of RulePlanner" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/ruleplanner.png" data-caption="RulePlanner: All-in-One Reinforcement Learner for Unifying Design Rules in 3D Floorplanning" aria-label="Enlarge figure: RulePlanner" data-zh-data-caption="RulePlanner：统一三维布局设计规则的一体化强化学习求解器" data-zh-aria-label="放大论文示意图：RulePlanner"><img src="assets/img/pipelines/thumb/ruleplanner.jpg" alt="Pipeline figure of RulePlanner" loading="lazy" decoding="async" data-zh-alt="RulePlanner：统一三维布局设计规则的一体化强化学习求解器的流程示意图"></button>
                 <div class="pub-body">
                   <div class="pub-venue"><span class="venue top">ICML 2026</span><span class="alias">RulePlanner</span></div>
-                  <p class="pub-title">RulePlanner: All-in-One Reinforcement Learner for Unifying Design Rules in 3D Floorplanning</p>
-                  <p class="pub-authors">Zhong Ruizhe, <span class="me">Du Xingbo</span>, Yan Junchi</p>
+                  <p class="pub-title" data-zh="RulePlanner：统一三维布局设计规则的一体化强化学习求解器">RulePlanner: All-in-One Reinforcement Learner for Unifying Design Rules in 3D Floorplanning</p>
+                  <p class="pub-authors">Zhong Ruizhe, <span class="me" data-zh="杜星波">Du Xingbo</span>, Yan Junchi</p>
                   <div class="pub-links"><a href="https://arxiv.org/abs/2601.22476" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>arXiv</a></div>
                 </div>
               </li>
               <li class="pub" data-tags="agents">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/rsmem.png" data-caption="RSMeM: Knowledge-Enhanced Memory Evolution for Remote Sensing Agents with Systematic Evaluation" aria-label="Enlarge figure: RSMeM"><img src="assets/img/pipelines/thumb/rsmem.jpg" alt="Pipeline figure of RSMeM" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/rsmem.png" data-caption="RSMeM: Knowledge-Enhanced Memory Evolution for Remote Sensing Agents with Systematic Evaluation" aria-label="Enlarge figure: RSMeM" data-zh-data-caption="RSMeM：面向遥感智能体的知识增强记忆演化与系统评估" data-zh-aria-label="放大论文示意图：RSMeM"><img src="assets/img/pipelines/thumb/rsmem.jpg" alt="Pipeline figure of RSMeM" loading="lazy" decoding="async" data-zh-alt="RSMeM：面向遥感智能体的知识增强记忆演化与系统评估的流程示意图"></button>
                 <div class="pub-body">
                   <div class="pub-venue"><span class="venue top">ACL 2026</span><span class="alias">RSMeM</span></div>
-                  <p class="pub-title">RSMeM: Knowledge-Enhanced Memory Evolution for Remote Sensing Agents with Systematic Evaluation</p>
-                  <p class="pub-authors">Wu Bingxian<sup>*</sup>, Zhang Yu<sup>*</sup>, Guo Zonghao, Liu Tang, Qian Chen, Lu Yuxiang, <span class="me">Du Xingbo</span>, Li Yanghao, Zhang Yidan, Chen Chi, Yao Ling, Sun Maosong</p>
-                  <div class="pub-links"><a href="https://arxiv.org/abs/2607.24772" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>arXiv</a><a href="https://github.com/AI9Stars/RSMeM" target="_blank" rel="noopener"><svg><use href="#i-code"/></svg>Code</a><a href="https://modelscope.cn/studios/wbx929/RSMeM" target="_blank" rel="noopener"><svg><use href="#i-demo"/></svg>Demo</a></div>
+                  <p class="pub-title" data-zh="RSMeM：面向遥感智能体的知识增强记忆演化与系统评估">RSMeM: Knowledge-Enhanced Memory Evolution for Remote Sensing Agents with Systematic Evaluation</p>
+                  <p class="pub-authors">Wu Bingxian<sup>*</sup>, Zhang Yu<sup>*</sup>, Guo Zonghao, Liu Tang, Qian Chen, Lu Yuxiang, <span class="me" data-zh="杜星波">Du Xingbo</span>, Li Yanghao, Zhang Yidan, Chen Chi, Yao Ling, Sun Maosong</p>
+                  <div class="pub-links"><a href="https://arxiv.org/abs/2607.24772" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>arXiv</a><a href="https://github.com/AI9Stars/RSMeM" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-code&quot;/&gt;&lt;/svg&gt;代码"><svg><use href="#i-code"/></svg>Code</a><a href="https://modelscope.cn/studios/wbx929/RSMeM" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-demo&quot;/&gt;&lt;/svg&gt;演示"><svg><use href="#i-demo"/></svg>Demo</a></div>
                 </div>
               </li>
               <li class="pub" data-tags="interp" data-first="1">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/fcbm.png" data-caption="Flexible Concept Bottleneck Model" aria-label="Enlarge figure: FCBM"><img src="assets/img/pipelines/thumb/fcbm.jpg" alt="Pipeline figure of FCBM" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/fcbm.png" data-caption="Flexible Concept Bottleneck Model" aria-label="Enlarge figure: FCBM" data-zh-data-caption="灵活的概念瓶颈模型" data-zh-aria-label="放大论文示意图：FCBM"><img src="assets/img/pipelines/thumb/fcbm.jpg" alt="Pipeline figure of FCBM" loading="lazy" decoding="async" data-zh-alt="灵活的概念瓶颈模型的流程示意图"></button>
                 <div class="pub-body">
                   <div class="pub-venue"><span class="venue top">AAAI 2026</span><span class="alias">FCBM</span></div>
-                  <p class="pub-title">Flexible Concept Bottleneck Model</p>
-                  <p class="pub-authors"><span class="me">Du Xingbo</span><sup>*†</sup>, Dou Qiantong<sup>*</sup>, Fan Lei, Zhang Rui<sup>†</sup></p>
-                  <div class="pub-links"><a href="https://arxiv.org/abs/2511.06678" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>arXiv</a><a href="https://github.com/deepopo/FCBM" target="_blank" rel="noopener"><svg><use href="#i-code"/></svg>Code</a></div>
+                  <p class="pub-title" data-zh="灵活的概念瓶颈模型">Flexible Concept Bottleneck Model</p>
+                  <p class="pub-authors"><span class="me" data-zh="杜星波">Du Xingbo</span><sup>*†</sup>, Dou Qiantong<sup>*</sup>, Fan Lei, Zhang Rui<sup>†</sup></p>
+                  <div class="pub-links"><a href="https://arxiv.org/abs/2511.06678" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>arXiv</a><a href="https://github.com/deepopo/FCBM" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-code&quot;/&gt;&lt;/svg&gt;代码"><svg><use href="#i-code"/></svg>Code</a></div>
                 </div>
               </li>
             </ul>
@@ -203,39 +204,39 @@
             <div class="year">2025</div>
             <ul class="pubs">
               <li class="pub" data-tags="opt" data-first="1">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/oarest.png" data-caption="Train on Pins and Test on Obstacles for Rectilinear Steiner Minimum Tree" aria-label="Enlarge figure: OAREST"><img src="assets/img/pipelines/thumb/oarest.jpg" alt="Pipeline figure of OAREST" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/oarest.png" data-caption="Train on Pins and Test on Obstacles for Rectilinear Steiner Minimum Tree" aria-label="Enlarge figure: OAREST" data-zh-data-caption="在引脚上训练，在障碍物上测试：直角斯坦纳最小树求解" data-zh-aria-label="放大论文示意图：OAREST"><img src="assets/img/pipelines/thumb/oarest.jpg" alt="Pipeline figure of OAREST" loading="lazy" decoding="async" data-zh-alt="在引脚上训练，在障碍物上测试：直角斯坦纳最小树求解的流程示意图"></button>
                 <div class="pub-body">
                   <div class="pub-venue"><span class="venue top">NeurIPS 2025</span><span class="alias">OAREST</span></div>
-                  <p class="pub-title">Train on Pins and Test on Obstacles for Rectilinear Steiner Minimum Tree</p>
-                  <p class="pub-authors"><span class="me">Du Xingbo</span>, Zhong Ruizhe, Yan Junchi</p>
-                  <div class="pub-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2025/file/ec370e882e8a02be955679ddbd2731b8-Paper-Conference.pdf" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/Thinklab-SJTU/EDA-AI/tree/main/OAREST" target="_blank" rel="noopener"><svg><use href="#i-code"/></svg>Code</a></div>
+                  <p class="pub-title" data-zh="在引脚上训练，在障碍物上测试：直角斯坦纳最小树求解">Train on Pins and Test on Obstacles for Rectilinear Steiner Minimum Tree</p>
+                  <p class="pub-authors"><span class="me" data-zh="杜星波">Du Xingbo</span>, Zhong Ruizhe, Yan Junchi</p>
+                  <div class="pub-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2025/file/ec370e882e8a02be955679ddbd2731b8-Paper-Conference.pdf" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-paper&quot;/&gt;&lt;/svg&gt;论文"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/Thinklab-SJTU/EDA-AI/tree/main/OAREST" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-code&quot;/&gt;&lt;/svg&gt;代码"><svg><use href="#i-code"/></svg>Code</a></div>
                 </div>
               </li>
               <li class="pub" data-tags="interp" data-first="1">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/dcbm.png" data-caption="The Decoupling Concept Bottleneck Model" aria-label="Enlarge figure: DCBM"><img src="assets/img/pipelines/thumb/dcbm.jpg" alt="Pipeline figure of DCBM" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/dcbm.png" data-caption="The Decoupling Concept Bottleneck Model" aria-label="Enlarge figure: DCBM" data-zh-data-caption="解耦概念瓶颈模型" data-zh-aria-label="放大论文示意图：DCBM"><img src="assets/img/pipelines/thumb/dcbm.jpg" alt="Pipeline figure of DCBM" loading="lazy" decoding="async" data-zh-alt="解耦概念瓶颈模型的流程示意图"></button>
                 <div class="pub-body">
                   <div class="pub-venue"><span class="venue top">IEEE TPAMI</span><span class="alias">DCBM</span></div>
-                  <p class="pub-title">The Decoupling Concept Bottleneck Model</p>
-                  <p class="pub-authors">Zhang Rui<sup>*</sup>, <span class="me">Du Xingbo</span><sup>*</sup>, Yan Junchi, Zhang Shihua</p>
-                  <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/10740789" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/deepopo/DCBM" target="_blank" rel="noopener"><svg><use href="#i-code"/></svg>Code</a></div>
+                  <p class="pub-title" data-zh="解耦概念瓶颈模型">The Decoupling Concept Bottleneck Model</p>
+                  <p class="pub-authors">Zhang Rui<sup>*</sup>, <span class="me" data-zh="杜星波">Du Xingbo</span><sup>*</sup>, Yan Junchi, Zhang Shihua</p>
+                  <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/10740789" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-paper&quot;/&gt;&lt;/svg&gt;论文"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/deepopo/DCBM" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-code&quot;/&gt;&lt;/svg&gt;代码"><svg><use href="#i-code"/></svg>Code</a></div>
                 </div>
               </li>
               <li class="pub" data-tags="opt">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/dsbrouter.png" data-caption="DSBRouter: End-to-end Global Routing via Diffusion Schrödinger Bridge" aria-label="Enlarge figure: DSBRouter"><img src="assets/img/pipelines/thumb/dsbrouter.jpg" alt="Pipeline figure of DSBRouter" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/dsbrouter.png" data-caption="DSBRouter: End-to-end Global Routing via Diffusion Schrödinger Bridge" aria-label="Enlarge figure: DSBRouter" data-zh-data-caption="DSBRouter：基于扩散薛定谔桥的端到端全局布线" data-zh-aria-label="放大论文示意图：DSBRouter"><img src="assets/img/pipelines/thumb/dsbrouter.jpg" alt="Pipeline figure of DSBRouter" loading="lazy" decoding="async" data-zh-alt="DSBRouter：基于扩散薛定谔桥的端到端全局布线的流程示意图"></button>
                 <div class="pub-body">
                   <div class="pub-venue"><span class="venue top">ICML 2025</span><span class="alias">DSBRouter</span></div>
-                  <p class="pub-title">DSBRouter: End-to-end Global Routing via Diffusion Schrödinger Bridge</p>
-                  <p class="pub-authors">Shi Liangliang<sup>*</sup>, Zhang Shenhui<sup>*</sup>, <span class="me">Du Xingbo</span>, Yang Nianzu, Yan Junchi</p>
-                  <div class="pub-links"><a href="https://openreview.net/pdf?id=Rxa6fWKces" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/Thinklab-SJTU/EDA-AI/tree/main/DSBRouter" target="_blank" rel="noopener"><svg><use href="#i-code"/></svg>Code</a></div>
+                  <p class="pub-title" data-zh="DSBRouter：基于扩散薛定谔桥的端到端全局布线">DSBRouter: End-to-end Global Routing via Diffusion Schrödinger Bridge</p>
+                  <p class="pub-authors">Shi Liangliang<sup>*</sup>, Zhang Shenhui<sup>*</sup>, <span class="me" data-zh="杜星波">Du Xingbo</span>, Yang Nianzu, Yan Junchi</p>
+                  <div class="pub-links"><a href="https://openreview.net/pdf?id=Rxa6fWKces" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-paper&quot;/&gt;&lt;/svg&gt;论文"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/Thinklab-SJTU/EDA-AI/tree/main/DSBRouter" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-code&quot;/&gt;&lt;/svg&gt;代码"><svg><use href="#i-code"/></svg>Code</a></div>
                 </div>
               </li>
               <li class="pub" data-tags="agents">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/recurformer.png" data-caption="RecurFormer: Not All Transformer Heads Need Self-Attention" aria-label="Enlarge figure: RecurFormer"><img src="assets/img/pipelines/thumb/recurformer.jpg" alt="Pipeline figure of RecurFormer" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/recurformer.png" data-caption="RecurFormer: Not All Transformer Heads Need Self-Attention" aria-label="Enlarge figure: RecurFormer" data-zh-data-caption="RecurFormer：并非所有 Transformer 注意力头都需要自注意力" data-zh-aria-label="放大论文示意图：RecurFormer"><img src="assets/img/pipelines/thumb/recurformer.jpg" alt="Pipeline figure of RecurFormer" loading="lazy" decoding="async" data-zh-alt="RecurFormer：并非所有 Transformer 注意力头都需要自注意力的流程示意图"></button>
                 <div class="pub-body">
-                  <div class="pub-venue"><span class="venue">ICLR 2025 Workshop</span><span class="alias">RecurFormer</span></div>
-                  <p class="pub-title">RecurFormer: Not All Transformer Heads Need Self-Attention</p>
-                  <p class="pub-authors">Yan Ruiqing<sup>*</sup>, Zheng Linghan<sup>*</sup>, <span class="me">Du Xingbo</span>, Zou Han, Guo Yufeng, Yang Jianfei</p>
-                  <div class="pub-links"><a href="https://openreview.net/pdf?id=ADl8dT8fKm" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>Paper</a></div>
+                  <div class="pub-venue"><span class="venue" data-zh="ICLR 2025 研讨会">ICLR 2025 Workshop</span><span class="alias">RecurFormer</span></div>
+                  <p class="pub-title" data-zh="RecurFormer：并非所有 Transformer 注意力头都需要自注意力">RecurFormer: Not All Transformer Heads Need Self-Attention</p>
+                  <p class="pub-authors">Yan Ruiqing<sup>*</sup>, Zheng Linghan<sup>*</sup>, <span class="me" data-zh="杜星波">Du Xingbo</span>, Zou Han, Guo Yufeng, Yang Jianfei</p>
+                  <div class="pub-links"><a href="https://openreview.net/pdf?id=ADl8dT8fKm" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-paper&quot;/&gt;&lt;/svg&gt;论文"><svg><use href="#i-paper"/></svg>Paper</a></div>
                 </div>
               </li>
             </ul>
@@ -245,30 +246,30 @@
             <div class="year">2024</div>
             <ul class="pubs">
               <li class="pub" data-tags="opt" data-first="1">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/jigsawplanner.png" data-caption="JigsawPlanner: Jigsaw-like Floorplanner for Eliminating Whitespace and Overlap among Complex Rectilinear Modules" aria-label="Enlarge figure: JigsawPlanner"><img src="assets/img/pipelines/thumb/jigsawplanner.jpg" alt="Pipeline figure of JigsawPlanner" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/jigsawplanner.png" data-caption="JigsawPlanner: Jigsaw-like Floorplanner for Eliminating Whitespace and Overlap among Complex Rectilinear Modules" aria-label="Enlarge figure: JigsawPlanner" data-zh-data-caption="JigsawPlanner：消除复杂直角模块间空白与重叠的拼图式布局规划器" data-zh-aria-label="放大论文示意图：JigsawPlanner"><img src="assets/img/pipelines/thumb/jigsawplanner.jpg" alt="Pipeline figure of JigsawPlanner" loading="lazy" decoding="async" data-zh-alt="JigsawPlanner：消除复杂直角模块间空白与重叠的拼图式布局规划器的流程示意图"></button>
                 <div class="pub-body">
                   <div class="pub-venue"><span class="venue top">ICCAD 2024</span><span class="alias">JigsawPlanner</span></div>
-                  <p class="pub-title">JigsawPlanner: Jigsaw-like Floorplanner for Eliminating Whitespace and Overlap among Complex Rectilinear Modules</p>
-                  <p class="pub-authors"><span class="me">Du Xingbo</span>, Zhong Ruizhe, Kai Shixiong, Tang Zhentao, Xu Siyuan, Hao Jianye, Yuan Mingxuan, Yan Junchi</p>
-                  <div class="pub-links"><a href="https://dl.acm.org/doi/10.1145/3676536.3676707" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>Paper</a></div>
+                  <p class="pub-title" data-zh="JigsawPlanner：消除复杂直角模块间空白与重叠的拼图式布局规划器">JigsawPlanner: Jigsaw-like Floorplanner for Eliminating Whitespace and Overlap among Complex Rectilinear Modules</p>
+                  <p class="pub-authors"><span class="me" data-zh="杜星波">Du Xingbo</span>, Zhong Ruizhe, Kai Shixiong, Tang Zhentao, Xu Siyuan, Hao Jianye, Yuan Mingxuan, Yan Junchi</p>
+                  <div class="pub-links"><a href="https://dl.acm.org/doi/10.1145/3676536.3676707" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-paper&quot;/&gt;&lt;/svg&gt;论文"><svg><use href="#i-paper"/></svg>Paper</a></div>
                 </div>
               </li>
               <li class="pub" data-tags="opt">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/flexplanner.png" data-caption="FlexPlanner: Flexible 3D Floorplanning via Deep Reinforcement Learning in Hybrid Action Space with Multi-Modality Representation" aria-label="Enlarge figure: FlexPlanner"><img src="assets/img/pipelines/thumb/flexplanner.jpg" alt="Pipeline figure of FlexPlanner" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/flexplanner.png" data-caption="FlexPlanner: Flexible 3D Floorplanning via Deep Reinforcement Learning in Hybrid Action Space with Multi-Modality Representation" aria-label="Enlarge figure: FlexPlanner" data-zh-data-caption="FlexPlanner：通过混合动作空间中的深度强化学习与多模态表示实现灵活三维布局" data-zh-aria-label="放大论文示意图：FlexPlanner"><img src="assets/img/pipelines/thumb/flexplanner.jpg" alt="Pipeline figure of FlexPlanner" loading="lazy" decoding="async" data-zh-alt="FlexPlanner：通过混合动作空间中的深度强化学习与多模态表示实现灵活三维布局的流程示意图"></button>
                 <div class="pub-body">
                   <div class="pub-venue"><span class="venue top">NeurIPS 2024</span><span class="alias">FlexPlanner</span></div>
-                  <p class="pub-title">FlexPlanner: Flexible 3D Floorplanning via Deep Reinforcement Learning in Hybrid Action Space with Multi-Modality Representation</p>
-                  <p class="pub-authors">Zhong Ruizhe, <span class="me">Du Xingbo</span>, Kai Shixiong, Tang Zhentao, Xu Siyuan, Hao Jianye, Yuan Mingxuan, Yan Junchi</p>
-                  <div class="pub-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/585e9cf25585612ac27b535457116513-Paper-Conference.pdf" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/Thinklab-SJTU/EDA-AI/tree/main/FlexPlanner" target="_blank" rel="noopener"><svg><use href="#i-code"/></svg>Code</a></div>
+                  <p class="pub-title" data-zh="FlexPlanner：通过混合动作空间中的深度强化学习与多模态表示实现灵活三维布局">FlexPlanner: Flexible 3D Floorplanning via Deep Reinforcement Learning in Hybrid Action Space with Multi-Modality Representation</p>
+                  <p class="pub-authors">Zhong Ruizhe, <span class="me" data-zh="杜星波">Du Xingbo</span>, Kai Shixiong, Tang Zhentao, Xu Siyuan, Hao Jianye, Yuan Mingxuan, Yan Junchi</p>
+                  <div class="pub-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/585e9cf25585612ac27b535457116513-Paper-Conference.pdf" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-paper&quot;/&gt;&lt;/svg&gt;论文"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/Thinklab-SJTU/EDA-AI/tree/main/FlexPlanner" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-code&quot;/&gt;&lt;/svg&gt;代码"><svg><use href="#i-code"/></svg>Code</a></div>
                 </div>
               </li>
               <li class="pub" data-tags="agents" data-first="1">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/llm4eda.png" data-caption="LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation" aria-label="Enlarge figure: LLM4EDA"><img src="assets/img/pipelines/thumb/llm4eda.jpg" alt="Pipeline figure of LLM4EDA" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/llm4eda.png" data-caption="LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation" aria-label="Enlarge figure: LLM4EDA" data-zh-data-caption="LLM4EDA：大语言模型在电子设计自动化领域的新进展" data-zh-aria-label="放大论文示意图：LLM4EDA"><img src="assets/img/pipelines/thumb/llm4eda.jpg" alt="Pipeline figure of LLM4EDA" loading="lazy" decoding="async" data-zh-alt="LLM4EDA：大语言模型在电子设计自动化领域的新进展的流程示意图"></button>
                 <div class="pub-body">
-                  <div class="pub-venue"><span class="venue">arXiv</span><span class="alias">Survey</span></div>
-                  <p class="pub-title">LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation</p>
-                  <p class="pub-authors">Zhong Ruizhe<sup>*</sup>, <span class="me">Du Xingbo</span><sup>*</sup>, Kai Shixiong, Tang Zhentao, Xu Siyuan, Zhen Hui-Ling, Hao Jianye, Xu Qiang, Yuan Mingxuan, Yan Junchi</p>
-                  <div class="pub-links"><a href="https://arxiv.org/abs/2401.12224" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>arXiv</a><a href="https://github.com/Thinklab-SJTU/Awesome-LLM4EDA" target="_blank" rel="noopener"><svg><use href="#i-code"/></svg>Awesome list</a></div>
+                  <div class="pub-venue"><span class="venue">arXiv</span><span class="alias" data-zh="综述">Survey</span></div>
+                  <p class="pub-title" data-zh="LLM4EDA：大语言模型在电子设计自动化领域的新进展">LLM4EDA: Emerging Progress in Large Language Models for Electronic Design Automation</p>
+                  <p class="pub-authors">Zhong Ruizhe<sup>*</sup>, <span class="me" data-zh="杜星波">Du Xingbo</span><sup>*</sup>, Kai Shixiong, Tang Zhentao, Xu Siyuan, Zhen Hui-Ling, Hao Jianye, Xu Qiang, Yuan Mingxuan, Yan Junchi</p>
+                  <div class="pub-links"><a href="https://arxiv.org/abs/2401.12224" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>arXiv</a><a href="https://github.com/Thinklab-SJTU/Awesome-LLM4EDA" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-code&quot;/&gt;&lt;/svg&gt;资源列表"><svg><use href="#i-code"/></svg>Awesome list</a></div>
                 </div>
               </li>
             </ul>
@@ -278,12 +279,12 @@
             <div class="year">2023</div>
             <ul class="pubs">
               <li class="pub" data-tags="opt" data-first="1">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/hubrouter.png" data-caption="HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection" aria-label="Enlarge figure: HubRouter"><img src="assets/img/pipelines/thumb/hubrouter.jpg" alt="Pipeline figure of HubRouter" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/hubrouter.png" data-caption="HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection" aria-label="Enlarge figure: HubRouter" data-zh-data-caption="HubRouter：通过枢纽生成与引脚—枢纽连接学习全局布线" data-zh-aria-label="放大论文示意图：HubRouter"><img src="assets/img/pipelines/thumb/hubrouter.jpg" alt="Pipeline figure of HubRouter" loading="lazy" decoding="async" data-zh-alt="HubRouter：通过枢纽生成与引脚—枢纽连接学习全局布线的流程示意图"></button>
                 <div class="pub-body">
                   <div class="pub-venue"><span class="venue top">NeurIPS 2023</span><span class="alias">HubRouter</span></div>
-                  <p class="pub-title">HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection</p>
-                  <p class="pub-authors"><span class="me">Du Xingbo</span>, Wang Chonghua, Zhong Ruizhe, Yan Junchi</p>
-                  <div class="pub-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/f7f98663c516fceb582354ee2d9d274d-Paper-Conference.pdf" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/Thinklab-SJTU/EDA-AI/tree/main/HubRouter" target="_blank" rel="noopener"><svg><use href="#i-code"/></svg>Code</a></div>
+                  <p class="pub-title" data-zh="HubRouter：通过枢纽生成与引脚—枢纽连接学习全局布线">HubRouter: Learning Global Routing via Hub Generation and Pin-hub Connection</p>
+                  <p class="pub-authors"><span class="me" data-zh="杜星波">Du Xingbo</span>, Wang Chonghua, Zhong Ruizhe, Yan Junchi</p>
+                  <div class="pub-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/f7f98663c516fceb582354ee2d9d274d-Paper-Conference.pdf" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-paper&quot;/&gt;&lt;/svg&gt;论文"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/Thinklab-SJTU/EDA-AI/tree/main/HubRouter" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-code&quot;/&gt;&lt;/svg&gt;代码"><svg><use href="#i-code"/></svg>Code</a></div>
                 </div>
               </li>
             </ul>
@@ -293,12 +294,12 @@
             <div class="year">2022</div>
             <ul class="pubs">
               <li class="pub" data-tags="opt" data-first="1">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/cenalp-tkde.png" data-caption="Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction" aria-label="Enlarge figure: Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction"><img src="assets/img/pipelines/thumb/cenalp-tkde.jpg" alt="Pipeline figure of Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/cenalp-tkde.png" data-caption="Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction" aria-label="Enlarge figure: Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction" data-zh-data-caption="用于联合网络对齐与链接预测的跨网络 Skip-gram 嵌入" data-zh-aria-label="放大论文示意图：用于联合网络对齐与链接预测的跨网络 Skip-gram 嵌入"><img src="assets/img/pipelines/thumb/cenalp-tkde.jpg" alt="Pipeline figure of Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction" loading="lazy" decoding="async" data-zh-alt="用于联合网络对齐与链接预测的跨网络 Skip-gram 嵌入的流程示意图"></button>
                 <div class="pub-body">
                   <div class="pub-venue"><span class="venue top">IEEE TKDE</span><span class="alias">CENALP</span></div>
-                  <p class="pub-title">Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction</p>
-                  <p class="pub-authors"><span class="me">Du Xingbo</span>, Yan Junchi, Zhang Rui, Zha Hongyuan</p>
-                  <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/9099979" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/deepopo/CENALP" target="_blank" rel="noopener"><svg><use href="#i-code"/></svg>Code</a></div>
+                  <p class="pub-title" data-zh="用于联合网络对齐与链接预测的跨网络 Skip-gram 嵌入">Cross-network Skip-gram Embedding for Joint Network Alignment and Link Prediction</p>
+                  <p class="pub-authors"><span class="me" data-zh="杜星波">Du Xingbo</span>, Yan Junchi, Zhang Rui, Zha Hongyuan</p>
+                  <div class="pub-links"><a href="https://ieeexplore.ieee.org/document/9099979" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-paper&quot;/&gt;&lt;/svg&gt;论文"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/deepopo/CENALP" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-code&quot;/&gt;&lt;/svg&gt;代码"><svg><use href="#i-code"/></svg>Code</a></div>
                 </div>
               </li>
             </ul>
@@ -308,40 +309,40 @@
             <div class="year">2019</div>
             <ul class="pubs">
               <li class="pub" data-tags="opt" data-first="1">
-                <button class="pub-fig" type="button" data-full="assets/img/pipelines/cenalp-ijcai.png" data-caption="Joint Link Prediction and Network Alignment via Cross-graph Embedding" aria-label="Enlarge figure: Joint Link Prediction and Network Alignment via Cross-graph Embedding"><img src="assets/img/pipelines/thumb/cenalp-ijcai.jpg" alt="Pipeline figure of Joint Link Prediction and Network Alignment via Cross-graph Embedding" loading="lazy" decoding="async"></button>
+                <button class="pub-fig" type="button" data-full="assets/img/pipelines/cenalp-ijcai.png" data-caption="Joint Link Prediction and Network Alignment via Cross-graph Embedding" aria-label="Enlarge figure: Joint Link Prediction and Network Alignment via Cross-graph Embedding" data-zh-data-caption="基于跨图嵌入的联合链接预测与网络对齐" data-zh-aria-label="放大论文示意图：基于跨图嵌入的联合链接预测与网络对齐"><img src="assets/img/pipelines/thumb/cenalp-ijcai.jpg" alt="Pipeline figure of Joint Link Prediction and Network Alignment via Cross-graph Embedding" loading="lazy" decoding="async" data-zh-alt="基于跨图嵌入的联合链接预测与网络对齐的流程示意图"></button>
                 <div class="pub-body">
-                  <div class="pub-venue"><span class="venue top">IJCAI 2019</span><span class="alias">Oral</span></div>
-                  <p class="pub-title">Joint Link Prediction and Network Alignment via Cross-graph Embedding</p>
-                  <p class="pub-authors"><span class="me">Du Xingbo</span>, Yan Junchi, Zha Hongyuan</p>
-                  <div class="pub-links"><a href="https://www.ijcai.org/Proceedings/2019/0312.pdf" target="_blank" rel="noopener"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/deepopo/CENALP" target="_blank" rel="noopener"><svg><use href="#i-code"/></svg>Code</a></div>
+                  <div class="pub-venue"><span class="venue top">IJCAI 2019</span><span class="alias" data-zh="口头报告">Oral</span></div>
+                  <p class="pub-title" data-zh="基于跨图嵌入的联合链接预测与网络对齐">Joint Link Prediction and Network Alignment via Cross-graph Embedding</p>
+                  <p class="pub-authors"><span class="me" data-zh="杜星波">Du Xingbo</span>, Yan Junchi, Zha Hongyuan</p>
+                  <div class="pub-links"><a href="https://www.ijcai.org/Proceedings/2019/0312.pdf" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-paper&quot;/&gt;&lt;/svg&gt;论文"><svg><use href="#i-paper"/></svg>Paper</a><a href="https://github.com/deepopo/CENALP" target="_blank" rel="noopener" data-zh="&lt;svg&gt;&lt;use href=&quot;#i-code&quot;/&gt;&lt;/svg&gt;代码"><svg><use href="#i-code"/></svg>Code</a></div>
                 </div>
               </li>
             </ul>
           </div>
 
-          <p class="empty" id="pubEmpty" hidden>No papers match this filter.</p>
+          <p class="empty" id="pubEmpty" hidden data-zh="没有符合当前筛选条件的论文。">No papers match this filter.</p>
         </div>
 
         <details class="patents">
           <summary>
             <div>
-              <h3>Patents</h3>
-              <div class="stats"><b>18</b> Chinese invention patents · <b>11</b> as first inventor · <b>11</b> granted</div>
+              <h3 data-zh="专利">Patents</h3>
+              <div class="stats" data-zh="&lt;b&gt;18&lt;/b&gt; 项中国发明专利 · &lt;b&gt;11&lt;/b&gt; 项为第一发明人 · &lt;b&gt;11&lt;/b&gt; 项已授权"><b>18</b> Chinese invention patents · <b>11</b> as first inventor · <b>11</b> granted</div>
             </div>
             <span class="caret"><svg><use href="#i-down"/></svg></span>
           </summary>
           <ul class="patent-list">
-            <li><span class="pt">知识图谱构建方法、装置、电子设备及存储介质<span class="granted">Granted</span></span><span class="pn">CN110807103B · 2026</span></li>
-            <li><span class="pt">一种基于线路生成和顺序选择的强化学习全局布线方法<span class="granted">Granted</span></span><span class="pn">CN116402012B · 2025</span></li>
-            <li><span class="pt">知识图谱的噪声识别方法、装置及计算机可读存储介质<span class="granted">Granted</span></span><span class="pn">CN114048322B · 2025</span></li>
-            <li><span class="pt">生成对象简称的方法和系统、存储介质以及程序产品<span class="granted">Granted</span></span><span class="pn">CN114282545B · 2024</span></li>
-            <li><span class="pt">基于知识图谱的推理方法、装置及计算机可读存储介质<span class="granted">Granted</span></span><span class="pn">CN112989127B · 2024</span></li>
-            <li><span class="pt">基于时序关联网络的分析方法、装置及计算机可读存储介质<span class="granted">Granted</span></span><span class="pn">CN115086144B · 2024</span></li>
-            <li><span class="pt">交易检测方法、模型的训练方法、装置及计算机可读存储介质<span class="granted">Granted</span></span><span class="pn">CN113011979B · 2024</span></li>
-            <li><span class="pt">基于知识图谱的异常结构挖掘方法、装置及可读存储介质<span class="granted">Granted</span></span><span class="pn">CN113704326B · 2024</span></li>
-            <li><span class="pt">一种协同训练方法、装置及计算机可读存储介质<span class="granted">Granted</span></span><span class="pn">CN113705662B · 2024</span></li>
-            <li><span class="pt">异常节点识别方法、模型的训练方法、装置及存储介质<span class="granted">Granted</span></span><span class="pn">CN113362157B · 2024</span></li>
-            <li><span class="pt">一种确定对象特征的方法及装置<span class="granted">Granted</span></span><span class="pn">CN112380494B · 2023</span></li>
+            <li><span class="pt">知识图谱构建方法、装置、电子设备及存储介质<span class="granted" data-zh="已授权">Granted</span></span><span class="pn">CN110807103B · 2026</span></li>
+            <li><span class="pt">一种基于线路生成和顺序选择的强化学习全局布线方法<span class="granted" data-zh="已授权">Granted</span></span><span class="pn">CN116402012B · 2025</span></li>
+            <li><span class="pt">知识图谱的噪声识别方法、装置及计算机可读存储介质<span class="granted" data-zh="已授权">Granted</span></span><span class="pn">CN114048322B · 2025</span></li>
+            <li><span class="pt">生成对象简称的方法和系统、存储介质以及程序产品<span class="granted" data-zh="已授权">Granted</span></span><span class="pn">CN114282545B · 2024</span></li>
+            <li><span class="pt">基于知识图谱的推理方法、装置及计算机可读存储介质<span class="granted" data-zh="已授权">Granted</span></span><span class="pn">CN112989127B · 2024</span></li>
+            <li><span class="pt">基于时序关联网络的分析方法、装置及计算机可读存储介质<span class="granted" data-zh="已授权">Granted</span></span><span class="pn">CN115086144B · 2024</span></li>
+            <li><span class="pt">交易检测方法、模型的训练方法、装置及计算机可读存储介质<span class="granted" data-zh="已授权">Granted</span></span><span class="pn">CN113011979B · 2024</span></li>
+            <li><span class="pt">基于知识图谱的异常结构挖掘方法、装置及可读存储介质<span class="granted" data-zh="已授权">Granted</span></span><span class="pn">CN113704326B · 2024</span></li>
+            <li><span class="pt">一种协同训练方法、装置及计算机可读存储介质<span class="granted" data-zh="已授权">Granted</span></span><span class="pn">CN113705662B · 2024</span></li>
+            <li><span class="pt">异常节点识别方法、模型的训练方法、装置及存储介质<span class="granted" data-zh="已授权">Granted</span></span><span class="pn">CN113362157B · 2024</span></li>
+            <li><span class="pt">一种确定对象特征的方法及装置<span class="granted" data-zh="已授权">Granted</span></span><span class="pn">CN112380494B · 2023</span></li>
             <li><span class="pt">考虑障碍物回避的直角斯坦纳树构建方法和系统</span><span class="pn">CN117390449A · 2024</span></li>
             <li><span class="pt">基于二阶段学习路径规划的芯片全局布线实现方法</span><span class="pn">CN116956811A · 2023</span></li>
             <li><span class="pt">生成式可解释的路径规划方法及设备</span><span class="pn">CN116878530A · 2023</span></li>
@@ -360,47 +361,47 @@
     <div class="wrap">
       <div class="section-label"><div class="inner">
         <div class="num">03</div>
-        <h2>News</h2>
+        <h2 data-zh="最新动态">News</h2>
       </div></div>
 
       <div>
         <ul class="news" id="newsList">
-          <li><time>2026 · 09</time><span class="t"><span class="hl">BioXArena</span> accepted at <b>NeurIPS ED 2026</b>.</span></li>
-          <li><time>2026 · 09</time><span class="t"><span class="hl">MemR³</span> accepted at <b>NeurIPS 2026</b>.</span></li>
-          <li><time>2026 · 09</time><span class="t">Serving as <b>Area Chair</b> for <b>ICLR 2027</b>.</span></li>
-          <li><time>2026 · 07</time><span class="t">Serving on the Program Committee for <b>AAAI 2027</b>.</span></li>
-          <li><time>2026 · 04</time><span class="t"><span class="hl">RulePlanner</span> accepted at <b>ICML 2026</b>.</span></li>
-          <li><time>2026 · 04</time><span class="t"><span class="hl">RSMeM</span> accepted at <b>ACL 2026</b>.</span></li>
-          <li><time>2026 · 03</time><span class="t">Serving as reviewer for <b>NeurIPS 2026</b>.</span></li>
-          <li><time>2026 · 02</time><span class="t">Serving as reviewer for <b>ECCV 2026</b>.</span></li>
-          <li><time>2026 · 01</time><span class="t">Serving as reviewer for <b>ACL 2026</b>.</span></li>
-          <li><time>2025 · 12</time><span class="t">Serving as reviewer for <b>ICML 2026</b>.</span></li>
-          <li><time>2025 · 11</time><span class="t">Serving as reviewer for <b>CVPR 2026</b>.</span></li>
-          <li><time>2025 · 11</time><span class="t"><span class="hl">FCBM</span> accepted at <b>AAAI 2026</b>.</span></li>
-          <li><time>2025 · 10</time><span class="t">Received my Ph.D. from <b>UNSW</b>.</span></li>
-          <li><time>2025 · 10</time><span class="t">Joined <b>MBZUAI</b> as a postdoctoral researcher.</span></li>
-          <li><time>2025 · 09</time><span class="t">Received my Ph.D. from <b>SJTU</b>.</span></li>
-          <li><time>2025 · 09</time><span class="t"><span class="hl">OAREST</span> accepted at <b>NeurIPS 2025</b>.</span></li>
-          <li><time>2025 · 09</time><span class="t">Serving as reviewer for <b>ICLR 2026</b>.</span></li>
-          <li><time>2025 · 07</time><span class="t">Serving on the Program Committee for <b>AAAI 2026</b>.</span></li>
-          <li><time>2025 · 06</time><span class="t">Serving as reviewer for <b>IEEE TCAD</b>.</span></li>
-          <li><time>2025 · 05</time><span class="t"><span class="hl">DSBRouter</span> accepted at <b>ICML 2025</b>.</span></li>
-          <li><time>2025 · 03</time><span class="t"><span class="hl">RecurFormer</span> accepted at the <b>ICLR 2025 SCOPE Workshop</b>.</span></li>
-          <li><time>2025 · 02</time><span class="t">Serving as reviewer for <b>NeurIPS 2025</b>.</span></li>
-          <li><time>2024 · 12</time><span class="t">Serving as reviewer for <b>ICML 2025</b>.</span></li>
-          <li><time>2024 · 12</time><span class="t">Tutoring <b>COMP9517</b> Computer Vision at UNSW in 25T1.</span></li>
-          <li><time>2024 · 11</time><span class="t">Invited one-hour talk at the <b>SJTU CSE Global Luncheon</b>.</span></li>
-          <li><time>2024 · 10</time><span class="t"><span class="hl">DCBM</span> accepted at <b>IEEE TPAMI</b>.</span></li>
-          <li><time>2024 · 09</time><span class="t">Received the <b>National Scholarship</b> at Shanghai Jiao Tong University.</span></li>
-          <li><time>2024 · 09</time><span class="t"><span class="hl">FlexPlanner</span> accepted at <b>NeurIPS 2024</b>.</span></li>
-          <li><time>2024 · 09</time><span class="t">Serving as reviewer for <b>ICLR 2025</b>.</span></li>
-          <li><time>2024 · 08</time><span class="t">Serving as reviewer for <b>IEEE TPAMI</b>.</span></li>
-          <li><time>2024 · 07</time><span class="t">Tutoring <b>COMP9517</b> Computer Vision at UNSW in 24T3.</span></li>
-          <li><time>2024 · 07</time><span class="t">Serving on the Program Committee for <b>AAAI 2025</b>.</span></li>
-          <li><time>2024 · 06</time><span class="t"><span class="hl">JigsawPlanner</span> accepted at <b>ICCAD 2024</b>.</span></li>
-          <li><time>2024 · 05</time><span class="t">Serving as reviewer for <b>NeurIPS 2024</b>.</span></li>
-          <li><time>2024 · 04</time><span class="t">Tutoring <b>COMP9517</b> Computer Vision at UNSW in 24T2.</span></li>
-          <li><time>2024 · 01</time><span class="t">Our <span class="hl">LLM4EDA</span> survey is on arXiv.</span></li>
+          <li><time>2026 · 09</time><span class="t" data-zh="&lt;span class=&quot;hl&quot;&gt;BioXArena&lt;/span&gt; 被 &lt;b&gt;NeurIPS ED 2026&lt;/b&gt; 接收。"><span class="hl">BioXArena</span> accepted at <b>NeurIPS ED 2026</b>.</span></li>
+          <li><time>2026 · 09</time><span class="t" data-zh="&lt;span class=&quot;hl&quot;&gt;MemR³&lt;/span&gt; 被 &lt;b&gt;NeurIPS 2026&lt;/b&gt; 接收。"><span class="hl">MemR³</span> accepted at <b>NeurIPS 2026</b>.</span></li>
+          <li><time>2026 · 09</time><span class="t" data-zh="担任 &lt;b&gt;ICLR 2027&lt;/b&gt; 的&lt;b&gt;领域主席&lt;/b&gt;。">Serving as <b>Area Chair</b> for <b>ICLR 2027</b>.</span></li>
+          <li><time>2026 · 07</time><span class="t" data-zh="担任 &lt;b&gt;AAAI 2027&lt;/b&gt; 程序委员会委员。">Serving on the Program Committee for <b>AAAI 2027</b>.</span></li>
+          <li><time>2026 · 04</time><span class="t" data-zh="&lt;span class=&quot;hl&quot;&gt;RulePlanner&lt;/span&gt; 被 &lt;b&gt;ICML 2026&lt;/b&gt; 接收。"><span class="hl">RulePlanner</span> accepted at <b>ICML 2026</b>.</span></li>
+          <li><time>2026 · 04</time><span class="t" data-zh="&lt;span class=&quot;hl&quot;&gt;RSMeM&lt;/span&gt; 被 &lt;b&gt;ACL 2026&lt;/b&gt; 接收。"><span class="hl">RSMeM</span> accepted at <b>ACL 2026</b>.</span></li>
+          <li><time>2026 · 03</time><span class="t" data-zh="担任 &lt;b&gt;NeurIPS 2026&lt;/b&gt; 审稿人。">Serving as reviewer for <b>NeurIPS 2026</b>.</span></li>
+          <li><time>2026 · 02</time><span class="t" data-zh="担任 &lt;b&gt;ECCV 2026&lt;/b&gt; 审稿人。">Serving as reviewer for <b>ECCV 2026</b>.</span></li>
+          <li><time>2026 · 01</time><span class="t" data-zh="担任 &lt;b&gt;ACL 2026&lt;/b&gt; 审稿人。">Serving as reviewer for <b>ACL 2026</b>.</span></li>
+          <li><time>2025 · 12</time><span class="t" data-zh="担任 &lt;b&gt;ICML 2026&lt;/b&gt; 审稿人。">Serving as reviewer for <b>ICML 2026</b>.</span></li>
+          <li><time>2025 · 11</time><span class="t" data-zh="担任 &lt;b&gt;CVPR 2026&lt;/b&gt; 审稿人。">Serving as reviewer for <b>CVPR 2026</b>.</span></li>
+          <li><time>2025 · 11</time><span class="t" data-zh="&lt;span class=&quot;hl&quot;&gt;FCBM&lt;/span&gt; 被 &lt;b&gt;AAAI 2026&lt;/b&gt; 接收。"><span class="hl">FCBM</span> accepted at <b>AAAI 2026</b>.</span></li>
+          <li><time>2025 · 10</time><span class="t" data-zh="获得&lt;b&gt;新南威尔士大学&lt;/b&gt;博士学位。">Received my Ph.D. from <b>UNSW</b>.</span></li>
+          <li><time>2025 · 10</time><span class="t" data-zh="加入 &lt;b&gt;MBZUAI&lt;/b&gt;，从事博士后研究。">Joined <b>MBZUAI</b> as a postdoctoral researcher.</span></li>
+          <li><time>2025 · 09</time><span class="t" data-zh="获得&lt;b&gt;上海交通大学&lt;/b&gt;博士学位。">Received my Ph.D. from <b>SJTU</b>.</span></li>
+          <li><time>2025 · 09</time><span class="t" data-zh="&lt;span class=&quot;hl&quot;&gt;OAREST&lt;/span&gt; 被 &lt;b&gt;NeurIPS 2025&lt;/b&gt; 接收。"><span class="hl">OAREST</span> accepted at <b>NeurIPS 2025</b>.</span></li>
+          <li><time>2025 · 09</time><span class="t" data-zh="担任 &lt;b&gt;ICLR 2026&lt;/b&gt; 审稿人。">Serving as reviewer for <b>ICLR 2026</b>.</span></li>
+          <li><time>2025 · 07</time><span class="t" data-zh="担任 &lt;b&gt;AAAI 2026&lt;/b&gt; 程序委员会委员。">Serving on the Program Committee for <b>AAAI 2026</b>.</span></li>
+          <li><time>2025 · 06</time><span class="t" data-zh="担任 &lt;b&gt;IEEE TCAD&lt;/b&gt; 审稿人。">Serving as reviewer for <b>IEEE TCAD</b>.</span></li>
+          <li><time>2025 · 05</time><span class="t" data-zh="&lt;span class=&quot;hl&quot;&gt;DSBRouter&lt;/span&gt; 被 &lt;b&gt;ICML 2025&lt;/b&gt; 接收。"><span class="hl">DSBRouter</span> accepted at <b>ICML 2025</b>.</span></li>
+          <li><time>2025 · 03</time><span class="t" data-zh="&lt;span class=&quot;hl&quot;&gt;RecurFormer&lt;/span&gt; 被 &lt;b&gt;ICLR 2025 SCOPE 研讨会&lt;/b&gt; 接收。"><span class="hl">RecurFormer</span> accepted at the <b>ICLR 2025 SCOPE Workshop</b>.</span></li>
+          <li><time>2025 · 02</time><span class="t" data-zh="担任 &lt;b&gt;NeurIPS 2025&lt;/b&gt; 审稿人。">Serving as reviewer for <b>NeurIPS 2025</b>.</span></li>
+          <li><time>2024 · 12</time><span class="t" data-zh="担任 &lt;b&gt;ICML 2025&lt;/b&gt; 审稿人。">Serving as reviewer for <b>ICML 2025</b>.</span></li>
+          <li><time>2024 · 12</time><span class="t" data-zh="在新南威尔士大学担任 &lt;b&gt;COMP9517&lt;/b&gt; 计算机视觉课程 25T1 学期的助教。">Tutoring <b>COMP9517</b> Computer Vision at UNSW in 25T1.</span></li>
+          <li><time>2024 · 11</time><span class="t" data-zh="受邀在&lt;b&gt;上海交通大学计算机系 Global Luncheon&lt;/b&gt; 作一小时报告。">Invited one-hour talk at the <b>SJTU CSE Global Luncheon</b>.</span></li>
+          <li><time>2024 · 10</time><span class="t" data-zh="&lt;span class=&quot;hl&quot;&gt;DCBM&lt;/span&gt; 被 &lt;b&gt;IEEE TPAMI&lt;/b&gt; 接收。"><span class="hl">DCBM</span> accepted at <b>IEEE TPAMI</b>.</span></li>
+          <li><time>2024 · 09</time><span class="t" data-zh="获上海交通大学&lt;b&gt;国家奖学金&lt;/b&gt;。">Received the <b>National Scholarship</b> at Shanghai Jiao Tong University.</span></li>
+          <li><time>2024 · 09</time><span class="t" data-zh="&lt;span class=&quot;hl&quot;&gt;FlexPlanner&lt;/span&gt; 被 &lt;b&gt;NeurIPS 2024&lt;/b&gt; 接收。"><span class="hl">FlexPlanner</span> accepted at <b>NeurIPS 2024</b>.</span></li>
+          <li><time>2024 · 09</time><span class="t" data-zh="担任 &lt;b&gt;ICLR 2025&lt;/b&gt; 审稿人。">Serving as reviewer for <b>ICLR 2025</b>.</span></li>
+          <li><time>2024 · 08</time><span class="t" data-zh="担任 &lt;b&gt;IEEE TPAMI&lt;/b&gt; 审稿人。">Serving as reviewer for <b>IEEE TPAMI</b>.</span></li>
+          <li><time>2024 · 07</time><span class="t" data-zh="在新南威尔士大学担任 &lt;b&gt;COMP9517&lt;/b&gt; 计算机视觉课程 24T3 学期的助教。">Tutoring <b>COMP9517</b> Computer Vision at UNSW in 24T3.</span></li>
+          <li><time>2024 · 07</time><span class="t" data-zh="担任 &lt;b&gt;AAAI 2025&lt;/b&gt; 程序委员会委员。">Serving on the Program Committee for <b>AAAI 2025</b>.</span></li>
+          <li><time>2024 · 06</time><span class="t" data-zh="&lt;span class=&quot;hl&quot;&gt;JigsawPlanner&lt;/span&gt; 被 &lt;b&gt;ICCAD 2024&lt;/b&gt; 接收。"><span class="hl">JigsawPlanner</span> accepted at <b>ICCAD 2024</b>.</span></li>
+          <li><time>2024 · 05</time><span class="t" data-zh="担任 &lt;b&gt;NeurIPS 2024&lt;/b&gt; 审稿人。">Serving as reviewer for <b>NeurIPS 2024</b>.</span></li>
+          <li><time>2024 · 04</time><span class="t" data-zh="在新南威尔士大学担任 &lt;b&gt;COMP9517&lt;/b&gt; 计算机视觉课程 24T2 学期的助教。">Tutoring <b>COMP9517</b> Computer Vision at UNSW in 24T2.</span></li>
+          <li><time>2024 · 01</time><span class="t" data-zh="我们的 &lt;span class=&quot;hl&quot;&gt;LLM4EDA&lt;/span&gt; 综述已发布于 arXiv。">Our <span class="hl">LLM4EDA</span> survey is on arXiv.</span></li>
         </ul>
         <button class="more" id="newsMore" type="button" aria-expanded="false" aria-controls="newsList"><span>Show all news</span><svg><use href="#i-down"/></svg></button>
       </div>
@@ -412,47 +413,47 @@
     <div class="wrap">
       <div class="section-label"><div class="inner">
         <div class="num">04</div>
-        <h2>Experience &amp; Education</h2>
+        <h2 data-zh="工作与教育经历">Experience &amp; Education</h2>
       </div></div>
 
       <ol class="timeline">
         <li class="now">
-          <div class="when">2025 — now</div><div class="rail"></div>
+          <div class="when" data-zh="2025 — 至今">2025 — now</div><div class="rail"></div>
           <div class="what">
-            <h4>Postdoctoral Researcher</h4>
-            <div class="org">Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</div>
-            <div class="detail">LLM agents for science · with Prof. <a class="link" href="https://dasongle.github.io/index.html" target="_blank" rel="noopener">Le Song</a></div>
+            <h4 data-zh="博士后研究员">Postdoctoral Researcher</h4>
+            <div class="org" data-zh="穆罕默德·本·扎耶德人工智能大学（MBZUAI）">Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</div>
+            <div class="detail" data-zh="面向科学的大语言模型智能体 · 与 &lt;a class=&quot;link&quot; href=&quot;https://dasongle.github.io/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Le Song&lt;/a&gt; 教授合作">LLM agents for science · with Prof. <a class="link" href="https://dasongle.github.io/index.html" target="_blank" rel="noopener">Le Song</a></div>
           </div>
         </li>
         <li>
           <div class="when">2022 — 2025</div><div class="rail"></div>
           <div class="what">
-            <h4>Ph.D. in Computer Science</h4>
-            <div class="org">Shanghai Jiao Tong University &amp; University of New South Wales (joint program)</div>
-            <div class="detail">Advisors: Prof. <a class="link" href="https://thinklab.sjtu.edu.cn/" target="_blank" rel="noopener">Junchi Yan</a> (SJTU) and Prof. <a class="link" href="http://www.cse.unsw.edu.au/~zhangw/" target="_blank" rel="noopener">Wenjie Zhang</a> (UNSW) · Wu Wenjun Honorary Doctoral Class in AI</div>
+            <h4 data-zh="计算机科学博士">Ph.D. in Computer Science</h4>
+            <div class="org" data-zh="上海交通大学与新南威尔士大学（联合培养）">Shanghai Jiao Tong University &amp; University of New South Wales (joint program)</div>
+            <div class="detail" data-zh="导师：&lt;a class=&quot;link&quot; href=&quot;https://thinklab.sjtu.edu.cn/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Junchi Yan&lt;/a&gt; 教授（上海交通大学）与 &lt;a class=&quot;link&quot; href=&quot;http://www.cse.unsw.edu.au/~zhangw/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Wenjie Zhang&lt;/a&gt; 教授（新南威尔士大学）· 吴文俊人工智能荣誉博士班">Advisors: Prof. <a class="link" href="https://thinklab.sjtu.edu.cn/" target="_blank" rel="noopener">Junchi Yan</a> (SJTU) and Prof. <a class="link" href="http://www.cse.unsw.edu.au/~zhangw/" target="_blank" rel="noopener">Wenjie Zhang</a> (UNSW) · Wu Wenjun Honorary Doctoral Class in AI</div>
           </div>
         </li>
         <li>
           <div class="when">2020 — 2022</div><div class="rail"></div>
           <div class="what">
-            <h4>Algorithm Engineer</h4>
-            <div class="org">China UnionPay, Institute of Financial Technology</div>
-            <div class="detail">Large-scale graph learning for risk control; member of a National Key R&amp;D Program project on financial fraud detection</div>
+            <h4 data-zh="算法工程师">Algorithm Engineer</h4>
+            <div class="org" data-zh="中国银联金融科技研究院">China UnionPay, Institute of Financial Technology</div>
+            <div class="detail" data-zh="面向风控的大规模图学习；参与金融欺诈检测方向的国家重点研发计划项目">Large-scale graph learning for risk control; member of a National Key R&amp;D Program project on financial fraud detection</div>
           </div>
         </li>
         <li>
           <div class="when">2017 — 2020</div><div class="rail"></div>
           <div class="what">
-            <h4>M.Eng. in Software Engineering</h4>
-            <div class="org">East China Normal University</div>
-            <div class="detail">Advisor: Prof. <a class="link" href="https://sds.cuhk.edu.cn/teacher/65" target="_blank" rel="noopener">Hongyuan Zha</a></div>
+            <h4 data-zh="软件工程硕士">M.Eng. in Software Engineering</h4>
+            <div class="org" data-zh="华东师范大学">East China Normal University</div>
+            <div class="detail" data-zh="导师：&lt;a class=&quot;link&quot; href=&quot;https://sds.cuhk.edu.cn/teacher/65&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hongyuan Zha&lt;/a&gt; 教授">Advisor: Prof. <a class="link" href="https://sds.cuhk.edu.cn/teacher/65" target="_blank" rel="noopener">Hongyuan Zha</a></div>
           </div>
         </li>
         <li>
           <div class="when">2013 — 2017</div><div class="rail"></div>
           <div class="what">
-            <h4>B.S. in Mathematics</h4>
-            <div class="org">East China Normal University</div>
+            <h4 data-zh="数学学士">B.S. in Mathematics</h4>
+            <div class="org" data-zh="华东师范大学">East China Normal University</div>
           </div>
         </li>
       </ol>
@@ -464,45 +465,45 @@
     <div class="wrap">
       <div class="section-label"><div class="inner">
         <div class="num">05</div>
-        <h2>Service, Teaching &amp; Honors</h2>
+        <h2 data-zh="学术服务、教学与荣誉">Service, Teaching &amp; Honors</h2>
       </div></div>
 
       <div class="info-grid">
         <div class="info">
-          <h3>Service</h3>
+          <h3 data-zh="学术服务">Service</h3>
           <ul>
-            <li><b>Area Chair</b>, ICLR 2027</li>
-            <li><b>Conference reviewer</b>
+            <li data-zh="&lt;b&gt;领域主席&lt;/b&gt;，ICLR 2027"><b>Area Chair</b>, ICLR 2027</li>
+            <li><b data-zh="会议审稿">Conference reviewer</b>
               <div class="pill-list"><span>ICML</span><span>NeurIPS</span><span>ICLR</span><span>CVPR</span><span>ACL</span><span>EMNLP</span><span>ECCV</span><span>AAAI</span><span>CIKM</span></div>
             </li>
-            <li><b>Journal reviewer</b>
+            <li><b data-zh="期刊审稿">Journal reviewer</b>
               <div class="pill-list"><span>IEEE TPAMI</span><span>IEEE TCAD</span><span>IEEE TNSE</span><span>Pattern Recognition</span></div>
             </li>
           </ul>
         </div>
 
         <div class="info">
-          <h3>Honors</h3>
+          <h3 data-zh="荣誉奖励">Honors</h3>
           <ul>
-            <li><b>Wu Wenjun Honorary Doctoral Scholarship</b> <span class="yr">2023 · 2024</span></li>
-            <li><b>National Scholarship</b> <span class="yr">2019 · 2024</span></li>
-            <li><b>Shanghai Outstanding Graduate</b> <span class="yr">2017 · 2020</span></li>
+            <li data-zh="&lt;b&gt;吴文俊荣誉博士奖学金&lt;/b&gt; &lt;span class=&quot;yr&quot;&gt;2023 · 2024&lt;/span&gt;"><b>Wu Wenjun Honorary Doctoral Scholarship</b> <span class="yr">2023 · 2024</span></li>
+            <li data-zh="&lt;b&gt;国家奖学金&lt;/b&gt; &lt;span class=&quot;yr&quot;&gt;2019 · 2024&lt;/span&gt;"><b>National Scholarship</b> <span class="yr">2019 · 2024</span></li>
+            <li data-zh="&lt;b&gt;上海市优秀毕业生&lt;/b&gt; &lt;span class=&quot;yr&quot;&gt;2017 · 2020&lt;/span&gt;"><b>Shanghai Outstanding Graduate</b> <span class="yr">2017 · 2020</span></li>
           </ul>
         </div>
 
         <div class="info">
-          <h3>Teaching</h3>
+          <h3 data-zh="教学经历">Teaching</h3>
           <ul>
-            <li><b>Tutor, COMP9517 Computer Vision</b>, UNSW <span class="sub">24T2 · 24T3 · 25T1, about 50–60 students per term</span></li>
+            <li data-zh="&lt;b&gt;COMP9517 计算机视觉课程助教&lt;/b&gt;，新南威尔士大学 &lt;span class=&quot;sub&quot;&gt;24T2、24T3、25T1 学期，每学期约 50–60 名学生&lt;/span&gt;"><b>Tutor, COMP9517 Computer Vision</b>, UNSW <span class="sub">24T2 · 24T3 · 25T1, about 50–60 students per term</span></li>
           </ul>
         </div>
 
         <div class="info">
-          <h3>Talks &amp; Open Source</h3>
+          <h3 data-zh="学术报告与开源">Talks &amp; Open Source</h3>
           <ul>
-            <li><b>Invited talk</b>, SJTU CSE Global Luncheon <span class="yr">2024</span></li>
-            <li><b>Conference talks</b>, IJCAI 2019 (oral) · ICCAD 2024</li>
-            <li><b>Open source</b>
+            <li data-zh="&lt;b&gt;受邀报告&lt;/b&gt;，上海交通大学计算机系 Global Luncheon &lt;span class=&quot;yr&quot;&gt;2024&lt;/span&gt;"><b>Invited talk</b>, SJTU CSE Global Luncheon <span class="yr">2024</span></li>
+            <li data-zh="&lt;b&gt;会议报告&lt;/b&gt;，IJCAI 2019（口头报告）· ICCAD 2024"><b>Conference talks</b>, IJCAI 2019 (oral) · ICCAD 2024</li>
+            <li><b data-zh="开源项目">Open source</b>
               <span class="sub"><a class="link" href="https://github.com/Thinklab-SJTU/EDA-AI" target="_blank" rel="noopener">EDA-AI</a> · <a class="link" href="https://github.com/Thinklab-SJTU/Awesome-LLM4EDA" target="_blank" rel="noopener">Awesome-LLM4EDA</a> · <a class="link" href="https://github.com/Thinklab-SJTU/awesome-ai4eda" target="_blank" rel="noopener">awesome-ai4eda</a></span>
             </li>
           </ul>
@@ -515,13 +516,45 @@
 
 <footer class="footer">
   <div class="wrap">
-    <span>© 2026 Xingbo Du</span>
-    <span>Last updated September 2026 · <a href="#top">Back to top ↑</a></span>
+    <span data-zh="© 2026 杜星波">© 2026 Xingbo Du</span>
+    <span data-zh="最近更新：2026 年 9 月 · &lt;a href=&quot;#top&quot;&gt;返回顶部 ↑&lt;/a&gt;">Last updated September 2026 · <a href="#top">Back to top ↑</a></span>
   </div>
 </footer>
 
-<dialog class="lightbox" id="figDialog" aria-label="Figure">
-  <form method="dialog"><button class="lb-close" aria-label="Close">×</button></form>
+<aside class="entp-corner" id="entpCorner" aria-label="Personality corner" hidden data-zh-aria-label="性格一角">
+  <button class="entp-trigger" id="entpTrigger" type="button" aria-label="Meet my ENTP side" aria-controls="entpPanel" aria-expanded="false">
+    <span class="entp-character" aria-hidden="true"></span>
+    <span class="entp-type">ENTP<span class="entp-status" aria-hidden="true"></span></span>
+  </button>
+  <section class="entp-panel" id="entpPanel" aria-labelledby="entpTitle" hidden>
+    <div class="entp-heading">
+      <div><span class="entp-eyebrow" data-zh="关于我的另一面">A little about me</span><h2 id="entpTitle" data-zh="好奇的一面。">The curious side.</h2></div>
+      <button class="entp-close" id="entpClose" type="button" aria-label="Close personality card" data-zh-aria-label="关闭性格卡片">×</button>
+    </div>
+    <p class="entp-thought" id="entpThought" aria-live="polite">“We’ll find a way when we get there.”</p>
+    <div class="entp-profile-label"><span data-zh="ENTP · 八维认知功能">ENTP · Cognitive functions</span><span data-zh="分数">Score</span></div>
+    <ul class="entp-functions" aria-label="Eight cognitive function scores" data-zh-aria-label="八维认知功能分数">
+      <li style="--score:92"><abbr title="Extraverted thinking" data-zh-title="外倾思维">Te</abbr><span data-zh="目标力">Execution</span><span class="entp-bar" aria-hidden="true"><i></i></span><b>92</b></li>
+      <li class="entp-leading" style="--score:140"><abbr title="Introverted thinking" data-zh-title="内倾思维">Ti</abbr><span data-zh="定义力">Logic</span><span class="entp-bar" aria-hidden="true"><i></i></span><b>140</b></li>
+      <li class="entp-leading" style="--score:138"><abbr title="Extraverted feeling" data-zh-title="外倾情感">Fe</abbr><span data-zh="关系力">Connection</span><span class="entp-bar" aria-hidden="true"><i></i></span><b>138</b></li>
+      <li style="--score:62"><abbr title="Introverted feeling" data-zh-title="内倾情感">Fi</abbr><span data-zh="信念力">Values</span><span class="entp-bar" aria-hidden="true"><i></i></span><b>62</b></li>
+      <li style="--score:100"><abbr title="Extraverted sensing" data-zh-title="外倾感觉">Se</abbr><span data-zh="体验感">Experience</span><span class="entp-bar" aria-hidden="true"><i></i></span><b>100</b></li>
+      <li style="--score:83"><abbr title="Introverted sensing" data-zh-title="内倾感觉">Si</abbr><span data-zh="经验感">Recall</span><span class="entp-bar" aria-hidden="true"><i></i></span><b>83</b></li>
+      <li class="entp-leading" style="--score:146"><abbr title="Extraverted intuition" data-zh-title="外倾直觉">Ne</abbr><span data-zh="展望感">Possibilities</span><span class="entp-bar" aria-hidden="true"><i></i></span><b>146</b></li>
+      <li style="--score:107"><abbr title="Introverted intuition" data-zh-title="内倾直觉">Ni</abbr><span data-zh="预估感">Insight</span><span class="entp-bar" aria-hidden="true"><i></i></span><b>107</b></li>
+    </ul>
+    <p class="entp-scale" data-zh="测试原始分数 · 条形长度以最高分为基准。">Raw test scores · Bars relative to the highest score.</p>
+    <div class="entp-actions">
+      <button id="entpNext" type="button" data-zh="换个想法 &lt;span aria-hidden=&quot;true&quot;&gt;↻&lt;/span&gt;">Another thought <span aria-hidden="true">↻</span></button>
+      <a href="#research" data-zh="看看我的研究 &lt;span aria-hidden=&quot;true&quot;&gt;↗&lt;/span&gt;">Explore research <span aria-hidden="true">↗</span></a>
+    </div>
+    <p class="entp-hint" id="entpHint">Click the character to keep this open.</p>
+  </section>
+  <button class="entp-minimize" id="entpMinimize" type="button" aria-label="Minimize personality corner" data-zh-aria-label="收起性格小人">−</button>
+</aside>
+
+<dialog class="lightbox" id="figDialog" aria-label="Figure" data-zh-aria-label="论文示意图">
+  <form method="dialog"><button class="lb-close" aria-label="Close" data-zh-aria-label="关闭">×</button></form>
   <img id="figImg" alt="">
   <p class="lb-cap" id="figCap"></p>
 </dialog>

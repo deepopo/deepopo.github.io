@@ -1,6 +1,39 @@
 (function () {
   var root = document.documentElement;
 
+  /* ---------- language toggle (English by default) ---------- */
+  var language = "en";
+  var languageToggle = document.getElementById("languageToggle");
+  var translatedContent = Array.prototype.slice.call(document.querySelectorAll("[data-zh]")).map(function (el) {
+    return { el: el, en: el.innerHTML, zh: el.getAttribute("data-zh") };
+  });
+  var translatedAttributes = [];
+  ["aria-label", "alt", "title", "data-caption", "content"].forEach(function (attribute) {
+    document.querySelectorAll("[data-zh-" + attribute + "]").forEach(function (el) {
+      translatedAttributes.push({ el: el, attribute: attribute, en: el.getAttribute(attribute), zh: el.getAttribute("data-zh-" + attribute) });
+    });
+  });
+  function text(en, zh) { return language === "zh" ? zh : en; }
+  function setLanguage(next) {
+    language = next;
+    root.lang = language === "zh" ? "zh-CN" : "en";
+    translatedContent.forEach(function (item) { item.el.innerHTML = item[language]; });
+    translatedAttributes.forEach(function (item) { item.el.setAttribute(item.attribute, item[language]); });
+    languageToggle.setAttribute("aria-label", text("Switch to Chinese", "切换为英语"));
+    languageToggle.setAttribute("aria-pressed", String(language === "zh"));
+    setNews(more && more.getAttribute("aria-expanded") === "true");
+    if (renderEntpText) renderEntpText();
+    if (activeFigure && dlg.open) {
+      dlgImg.alt = activeFigure.querySelector("img").alt;
+      dlgCap.textContent = activeFigure.dataset.caption;
+    }
+    onScroll();
+  }
+  if (languageToggle) {
+    languageToggle.addEventListener("click", function () { setLanguage(language === "en" ? "zh" : "en"); });
+    languageToggle.hidden = false;
+  }
+
   /* ---------- theme toggle ---------- */
   var toggle = document.getElementById("themeToggle");
   function isDark() {
@@ -91,8 +124,8 @@
     if (more) {
       more.setAttribute("aria-expanded", expanded ? "true" : "false");
       more.querySelector("span").textContent = expanded
-        ? "Show fewer"
-        : "Show all " + newsItems.length + " items";
+        ? text("Show fewer", "收起动态")
+        : text("Show all " + newsItems.length + " items", "查看全部 " + newsItems.length + " 条动态");
     }
   }
   if (newsItems.length > NEWS_VISIBLE) {
@@ -108,9 +141,11 @@
   var dlg = document.getElementById("figDialog");
   var dlgImg = document.getElementById("figImg");
   var dlgCap = document.getElementById("figCap");
+  var activeFigure = null;
   if (dlg && typeof dlg.showModal === "function") {
     document.querySelectorAll("button.pub-fig").forEach(function (btn) {
       btn.addEventListener("click", function () {
+        activeFigure = btn;
         dlgImg.src = btn.dataset.full;
         dlgImg.alt = btn.querySelector("img").alt;
         dlgCap.textContent = btn.dataset.caption;
@@ -118,11 +153,105 @@
       });
     });
     dlg.addEventListener("click", function (e) { if (e.target === dlg) dlg.close(); });
-    dlg.addEventListener("close", function () { dlgImg.removeAttribute("src"); });
+    dlg.addEventListener("close", function () { dlgImg.removeAttribute("src"); activeFigure = null; });
   } else {
     document.querySelectorAll("button.pub-fig").forEach(function (btn) {
       btn.addEventListener("click", function () { window.open(btn.dataset.full, "_blank"); });
     });
+  }
+
+  /* ---------- personality corner ---------- */
+  var corner = document.getElementById("entpCorner");
+  var renderEntpText;
+  if (corner) {
+    var entpTrigger = document.getElementById("entpTrigger");
+    var entpPanel = document.getElementById("entpPanel");
+    var entpHint = document.getElementById("entpHint");
+    var pinned = false;
+    var dismissed = false;
+    var hoverTimer;
+    var leaveTimer;
+    var thoughts = [
+      ["“We’ll find a way when we get there.”", "“车到山前必有路，船到桥头自然直。”"],
+      ["“A good idea gets better when you try to break it.”", "“好想法，经得起反复推敲。”"],
+      ["“Curiosity first. Then a few experiments.”", "“先保持好奇，再动手做几个实验。”"]
+    ];
+    var thoughtIndex = 0;
+    renderEntpText = function () {
+      entpTrigger.setAttribute("aria-label", corner.classList.contains("is-minimized")
+        ? text("Restore personality corner", "展开性格小人")
+        : pinned ? text("Close personality card", "关闭性格卡片") : text("Meet my ENTP side", "认识我的 ENTP 一面"));
+      entpHint.textContent = pinned
+        ? text("Click the character again to close.", "再次点击小人即可关闭。")
+        : text("Click the character to keep this open.", "点击小人可固定卡片。");
+      document.getElementById("entpThought").textContent = text(thoughts[thoughtIndex][0], thoughts[thoughtIndex][1]);
+    };
+    function setEntpOpen(open) {
+      clearTimeout(hoverTimer);
+      clearTimeout(leaveTimer);
+      entpPanel.hidden = !open;
+      entpTrigger.setAttribute("aria-expanded", String(open));
+      corner.classList.toggle("is-open", open);
+      corner.classList.toggle("is-pinned", pinned);
+      renderEntpText();
+    }
+    function dismissEntp() {
+      pinned = false;
+      dismissed = true;
+      if (entpPanel.contains(document.activeElement)) entpTrigger.focus();
+      setEntpOpen(false);
+    }
+    corner.addEventListener("pointerenter", function (e) {
+      clearTimeout(leaveTimer);
+      if (e.pointerType === "touch" || dismissed || corner.classList.contains("is-minimized")) return;
+      hoverTimer = setTimeout(function () { setEntpOpen(true); }, 200);
+    });
+    corner.addEventListener("pointerleave", function () {
+      clearTimeout(hoverTimer);
+      dismissed = false;
+      if (!pinned && !corner.contains(document.activeElement)) {
+        leaveTimer = setTimeout(function () { setEntpOpen(false); }, 180);
+      }
+    });
+    corner.addEventListener("focusin", function () {
+      if (!dismissed && !corner.classList.contains("is-minimized")) setEntpOpen(true);
+    });
+    corner.addEventListener("focusout", function () {
+      setTimeout(function () {
+        if (!corner.contains(document.activeElement)) {
+          dismissed = false;
+          if (!pinned && !corner.matches(":hover")) setEntpOpen(false);
+        }
+      }, 0);
+    });
+    entpTrigger.addEventListener("click", function () {
+      if (pinned) { dismissEntp(); return; }
+      corner.classList.remove("is-minimized");
+      dismissed = false;
+      pinned = true;
+      setEntpOpen(true);
+    });
+    document.getElementById("entpClose").addEventListener("click", dismissEntp);
+    document.getElementById("entpMinimize").addEventListener("click", function () {
+      dismissEntp();
+      corner.classList.add("is-minimized");
+      renderEntpText();
+      entpTrigger.focus();
+    });
+    document.addEventListener("click", function (e) {
+      if (!entpPanel.hidden && !corner.contains(e.target)) dismissEntp();
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && !entpPanel.hidden) { e.preventDefault(); dismissEntp(); }
+    });
+    document.getElementById("entpNext").addEventListener("click", function () {
+      thoughtIndex = (thoughtIndex + 1) % thoughts.length;
+      pinned = true;
+      setEntpOpen(true);
+    });
+    entpPanel.querySelector("a").addEventListener("click", dismissEntp);
+    renderEntpText();
+    corner.hidden = false;
   }
 
   /* ---------- reveal on scroll ---------- */

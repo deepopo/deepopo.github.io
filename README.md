@@ -22,3 +22,4 @@ Then open <http://localhost:4000>.
 - **News**: add an `<li>` at the top of `#newsList`. The first 6 items are shown by default.
 - **Publications**: add an `<li class="pub">` to the matching year group. `data-tags` takes
   `agents`, `opt`, or `interp` (space-separated). Set `data-first="1"` for first or co-first author papers.
+- **Chinese translation**: English is the default on every page load. Add `data-zh` to a text element for its Chinese text or inline HTML; use `data-zh-alt`, `data-zh-aria-label`, `data-zh-title`, `data-zh-content`, and `data-zh-data-caption` for translated attributes. Keep translated elements separate rather than nesting them, and put translated button labels in a span so controls and filter counts survive switching. News controls and personality quotes are translated in `assets/js/site.js`.
