@@ -420,6 +420,7 @@ button.pub-fig:hover { border-color: var(--rule-strong); box-shadow: var(--shado
 .pill-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
 .pill-list > span { font-size: 12.5px; color: var(--ink-2); border: 1px solid var(--rule); border-radius: 4px; padding: 2px 8px; }
 .pill-list em { font-style: normal; font-family: var(--mono); font-size: 11.5px; color: var(--ink-3); margin-left: 6px; }
+.pill-list .top { font-weight: 500; color: var(--accent); }
 
 /* ---------- footer ---------- */
 .footer { border-top: 1px solid var(--rule); padding: 32px 0 48px; }
